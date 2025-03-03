@@ -16,4 +16,5 @@ The charts show the areas of the court where the player prefers (and dislikes) t
 This project aims to detect and track players, referees, and footballs in video using YOLO, a top AI object detection model, and improve its performance through training. Using K-means clustering to assign players to teams based on shirt colors, calculate ball possession percentage and track player movement with optical flow. Perspective transformation will convert movement from pixels to meters. Finally, we’ll calculate player speed and distance covered, addressing real-world challenges suitable for both beginners and experienced machine learning engineers.
 
 **Programming Language**: Python
+
 **Libraries/Frameworks**: YOLO, OpenCV, K-means, Optical Flow, Perspective Transformation
