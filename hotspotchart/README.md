@@ -1,3 +1,3 @@
-Further explanation of the charts: https://substack.com/@owenphillips/p-157443661
+Further explanation of the charts: [Link to article](https://substack.com/@owenphillips/p-157443661)
 
-All data from [here](https://github.com/shufinskiy/nba_data).
+Data Source: [NBA data repository](https://github.com/shufinskiy/nba_data).
