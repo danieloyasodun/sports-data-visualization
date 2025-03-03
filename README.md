@@ -4,8 +4,8 @@
 This repository is a collection of projects and experiments where I practice and learn data visualization using R and Python. I explore NBA stats and play-by-play data from [here](https://github.com/shufinskiy/nba_data) to create visualizations, inclusing shot charts, heatmaps and other anlytical graphics. The goal is to develope a deeper understanding of data story telling and sports analytics.
 
 ### Frameworks and Languages Used
- - Programming Languages: R, Python
- - Libraries/Frameworks: YOLO, OpenCV, K-means, Optical Flow, Perspective Transformation
+ - **Programming Languages**: R, Python
+ - **Libraries/Frameworks**: YOLO, OpenCV, K-means, Optical Flow, Perspective Transformation
 
 
 ### Hotspot Chart
