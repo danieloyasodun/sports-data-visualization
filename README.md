@@ -6,6 +6,8 @@ This repository is a collection of projects and experiments where I practice and
 ### Diamond Plot
 [`diamond_plot`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/diamond_plot/diamond_plot.R)
 
+The chart is a visual representation of NFL teams' offensice and defensive performance using Expected Points Added (EPA) per play for the 2024-2025 regular season. It loads in play-by-play data, filters relevant plays, and calculates average offensive and defensive EPA for each team. The data is then plotted on a rotated scatterplot, with teams positioned based on their offensive and defensive efficienct, and categorized into four performance quadrants ("Good O, Bad D"). The team logos are for added clarity and the plot is styled with color coded regions and customized labels.
+
 **Programming Language**: R
 
 ### Hotspot Chart
