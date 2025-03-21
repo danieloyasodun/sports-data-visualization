@@ -6,9 +6,45 @@ This repository is a collection of projects and experiments where I practice and
 ### Leaderboard Plot
 [`leaderboard_plot`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/leaderboard_plot/leaderboard.R)
 
-This chart displays a facet-wrapped leaderboard chart of the top 50 NBA players ranked by Defensive Stops Per 100 (as of 03/20/2025). The data comes from [pbpbstats.com](pbpstats.com) and I'm filtering for players with at least 1,500 defensive possessions. A Defensive stop is calculated by Steals+Recovered Blocks+Offensive Fouls Drawn+Charge Fouls Drawn and Stops Per 100 is Stops divided by defensive possessions times 100. Using custom borders colored based on the team’s primary and alternate colors and the team logo for clarity.
+This chart displays a **facet-wrapped leaderboard** ranking the **top 50 NBA players** by **Defensive Stops Per 100 Possessions** (as of **March 20, 2025**). The data comes from [pbpstats.com](https://pbpstats.com), and I’ve filtered for players with at least **1,500 defensive possessions** to ensure a meaningful sample size.
 
-**Programming Languag**: R
+## 📊 What is a Defensive Stop?
+A **Defensive Stop** is calculated as:
+Steals + Recovered Blocks + Offensive Fouls Drawn + Charge Fouls Drawn
+
+And **Stops Per 100** is determined by:  
+(Defensive Stops / Defensive Possessions) * 100
+
+
+## 🏀 Why Track Defensive Stops Per 100?
+This stat provides a **broader measure of defensive impact** beyond traditional stats like **steals and blocks**, focusing on how effective a player is at **ending an opponent’s possession**.  
+
+Many great defenders—like **Lu Dort and Draymond Green**—don’t accumulate high steals or blocks but still rank **inside the top 20** due to their ability to disrupt plays in other ways.
+
+## 🔍 Identifying High-Impact Defenders
+- **Guards** may not block many shots, but they excel in **steals, drawing charges, and recovering loose balls**.  
+- **Big men** might not generate steals but contribute with **blocks and contested rebounds**.
+
+## 🎨 Visualization
+The chart uses:
+- ✅ **Custom borders** colored based on each team's **primary and alternate colors**  
+- ✅ **Team logos** for added clarity  
+
+---
+
+### 📷 Sample Output  
+![Defensive Stops Leaderboard](defensive_stops_per100.png)
+
+---
+
+### 📢 Acknowledgments  
+Data source: [pbpstats.com](https://pbpstats.com)  
+
+---
+
+🚀 **This project helps highlight defensive impact beyond traditional box score stats!**  
+
+**Programming Language**: R
 
 ### Diamond Plot
 [`diamond_plot`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/diamond_plot/diamond_plot.R)
