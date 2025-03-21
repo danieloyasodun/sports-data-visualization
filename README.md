@@ -6,12 +6,14 @@ This repository is a collection of projects and experiments where I practice and
 ### Leaderboard Plot
 [`leaderboard_plot`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/leaderboard_plot/leaderboard.R)
 
+This chart displays a facet-wrapped leaderboard chart of the top 50 NBA players ranked by Defensive Stops Per 100 (as of 03/20/2025). The data comes from [pbpbstats.com](pbpstats.com) and I'm filtering for players with at least 1,500 defensive possessions. A Defensive stop is calculated by Steals+Recovered Blocks+Offensive Fouls Drawn+Charge Fouls Drawn and Stops Per 100 is Stops divided by defensive possessions times 100. Using custom borders colored based on the team’s primary and alternate colors and the team logo for clarity.
+
 **Programming Languag**: R
 
 ### Diamond Plot
 [`diamond_plot`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/diamond_plot/diamond_plot.R)
 
-The chart is a visual representation of NFL teams' offensice and defensive performance using Expected Points Added (EPA) per play for the 2024-2025 regular season. It loads in play-by-play data, filters relevant plays, and calculates average offensive and defensive EPA for each team. The data is then plotted on a rotated scatterplot, with teams positioned based on their offensive and defensive efficienct, and categorized into four performance quadrants ("Good O, Bad D"). The team logos are for added clarity and the plot is styled with color coded regions and customized labels.
+The chart is a visual representation of NFL teams' offensive and defensive performance using Expected Points Added (EPA) per play for the 2024-2025 regular season. It loads in play-by-play data, filters relevant plays, and calculates average offensive and defensive EPA for each team. The data is then plotted on a rotated scatterplot, with teams positioned based on their offensive and defensive efficienct, and categorized into four performance quadrants ("Good O, Bad D"). The team logos are for added clarity and the plot is styled with color coded regions and customized labels.
 
 **Programming Language**: R
 
