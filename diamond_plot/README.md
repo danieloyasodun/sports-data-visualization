@@ -1,4 +1,4 @@
-Further explanation of the charts & Tutorial Guide: [Link to article](https://thef5.substack.com/p/how-to-diamond-plots-in-r)
+Further explanation of the chart & Tutorial Guide: [Link to article](https://thef5.substack.com/p/how-to-diamond-plots-in-r)
 
 https://www.nflfastr.com/articles/beginners_guide.html#figures-with-qb-stats
 
