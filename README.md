@@ -21,6 +21,8 @@ The chart is a visual representation of NFL teams' offensive and defensive perfo
 
 **Programming Language**: R
 
+---
+
 ### Hotspot Chart
 [`hotspot`](https://github.com/danieloyasodun/nba-data-visualization/blob/main/hotspotchart/hotspot.R)
 
