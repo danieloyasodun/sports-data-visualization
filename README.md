@@ -10,7 +10,8 @@ This chart displays a **facet-wrapped leaderboard** ranking the **top 50 NBA pla
 
 **Programming Language**: R
 
-``````
+```
+```
 
 ### Diamond Plot
 [`diamond_plot`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/diamond_plot/diamond_plot.R)
