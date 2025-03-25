@@ -1,7 +1,7 @@
 [`worldfootbalr`](https://jaseziv.github.io/worldfootballR/)
 
 
-## Successful takeons vs Shot creating actions (23-24 Premier League)
+## Successful takeons vs Shot creating actions (23-24 Big 5 Leagues)
 [`takeons_vs_sca`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/takeons_vs_sca/big_5_creative.R)
 
 ![big5_successful_takeons_vs_sca_top15](https://github.com/user-attachments/assets/ed8ad544-9160-438f-a3fa-0b023a0dc6da)
