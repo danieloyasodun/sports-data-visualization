@@ -4,7 +4,7 @@
 ## Successful takeons vs Shot creating actions (23-24 Big 5 Leagues)
 [`takeons_vs_sca`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/takeons_vs_sca/big_5_creative.R)
 
-![big5_all_successful_takeons_vs_sca_top15](https://github.com/user-attachments/assets/e8a3e064-d898-4085-a132-e40aa71b4692)
+![big5_all_successful_takeons_vs_sca_top15](https://github.com/user-attachments/assets/7d8f9897-5b20-4164-b03d-47fdcfebc887)
 
 **Programming Language**: R
 
