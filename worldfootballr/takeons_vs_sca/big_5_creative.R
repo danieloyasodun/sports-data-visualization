@@ -36,7 +36,6 @@ merged_data <- merged_data %>%
 
 # Filtering for forwards and midfielders, and players with more than 500 minutes
 forwards_midfielders <- merged_data %>%
-  filter(Pos %in% c("FW", "MF")) %>%
   filter(SCA_Per_90 > 0) %>%
   filter(Min_Playing.Time > 1000)
 
@@ -60,9 +59,6 @@ forwards_midfielders <- forwards_midfielders %>%
       TRUE ~ "Others"
     )
   )
-
-# Load the ggrepel package
-library(ggrepel)
 
 # Load the ggrepel package
 library(ggrepel)
@@ -98,4 +94,4 @@ plot <- ggplot(forwards_midfielders, aes(x = Succ_Take_Per_90, y = SCA_Per_90)) 
   )
 
 # Save the plot
-ggsave("big5_successful_takeons_vs_sca_top15.png", plot = plot, width = 10, height = 6)
+ggsave("big5_all_successful_takeons_vs_sca_top15.png", plot = plot, width = 10, height = 6)

@@ -1,6 +1,7 @@
 library(dplyr)
 library(ggplot2)
 library(readr)
+library(ggrepel)  # Load the ggrepel package
 
 # Folder path
 data_folder <- "prem_2024_data_players/"
@@ -20,7 +21,7 @@ merged_data <- possession_data %>%
   inner_join(gca_data, by = "Player") %>%
   inner_join(playing_time_data, by = "Player")
 
-# Calculate successful take-ons per 90 (Succ_Take_minus_Ons / Min_Playing Time * 90)
+# Calculate successful take-ons per 90
 merged_data <- merged_data %>%
   mutate(
     Succ_Take_Per_90 = (Succ_Take_minus_Ons / `Min_Playing Time`) * 90,
@@ -33,52 +34,54 @@ merged_data <- merged_data %>%
   filter(n() == 1) %>%
   ungroup()
 
-# Filtering for forwards and midfielders, and players with more than 500 minutes
+# Filtering for players with more than 1000 minutes
 forwards_midfielders <- merged_data %>%
-  filter(Pos %in% c("FW", "MF")) %>%
   filter(SCA_Per_90 > 0) %>%
-  filter(`Min_Playing Time` > 500)
+  filter(`Min_Playing Time` > 1000)
 
-# Get the top 5 players based on SCA_Per_90
-top_5_sca <- forwards_midfielders %>%
+# Get the top 15 players based on SCA_Per_90
+top_15_sca <- forwards_midfielders %>%
   arrange(desc(SCA_Per_90)) %>%
-  head(5)
+  head(15)
 
-# Get the top 5 players based on Succ_Take_Per_90 (Successful Dribbles)
-top_5_dribbles <- forwards_midfielders %>%
+# Get the top 15 players based on Succ_Take_Per_90
+top_15_dribbles <- forwards_midfielders %>%
   arrange(desc(Succ_Take_Per_90)) %>%
-  head(5)
+  head(15)
 
-# Add a new variable to classify players into different categories
+# Add a new variable to classify players
 forwards_midfielders <- forwards_midfielders %>%
   mutate(
     Player_Type = case_when(
-      Player %in% top_5_sca$Player & Player %in% top_5_dribbles$Player ~ "Top 5 Both",
-      Player %in% top_5_sca$Player ~ "Top 5 SCA",
-      Player %in% top_5_dribbles$Player ~ "Top 5 Dribbles",
+      Player %in% top_15_sca$Player & Player %in% top_15_dribbles$Player ~ "Top 15 Both",
+      Player %in% top_15_sca$Player ~ "Top 15 SCA",
+      Player %in% top_15_dribbles$Player ~ "Top 15 Dribbles",
       TRUE ~ "Others"
     )
   )
 
-# Create the scatter plot
+# Combine both top lists, ensuring unique players
+top_labeled_players <- forwards_midfielders %>%
+  filter(Player %in% union(top_15_sca$Player, top_15_dribbles$Player))
+
+# Create the scatter plot with ggrepel for labels
 plot <- ggplot(forwards_midfielders, aes(x = Succ_Take_Per_90, y = SCA_Per_90)) +  
-  geom_point(aes(color = Player_Type), size = 3) + 
-  geom_text(data = top_5_sca, aes(label = Player), vjust = -0.5, hjust = 1.2, color = "black") +  # Labels for top 5 SCA players
-  geom_text(data = top_5_dribbles, aes(label = Player), vjust = -0.5, hjust = 1.2, color = "black") +  # Labels for top 5 Dribbles players
+  geom_point(aes(color = Player_Type), size = 3) +  
+  geom_text_repel(data = top_labeled_players, aes(label = Player), 
+                  color = "black", size = 3, box.padding = 0.5, max.overlaps = 10) +  
   labs(
-    title = "Successful Take-Ons per 90 vs SCA per 90 (23-24 Seaason Premier League)",
+    title = "Successful Take-Ons per 90 vs SCA per 90 (23-24 Premier League)",
     x = "Successful Take-Ons per 90",
     y = "SCA (Shot-Creating Actions) per 90",
     color = "Player Type",
-    size = "Minutes per 90",
-    caption = "Only players with more than 500 minutes played are displayed"
+    caption = "Only players with more than 1000 minutes played are displayed"
   ) +
   scale_color_manual(values = c(
-    "Top 5 Both" = "purple", 
-    "Top 5 SCA" = "red", 
-    "Top 5 Dribbles" = "blue", 
+    "Top 15 Both" = "purple", 
+    "Top 15 SCA" = "red", 
+    "Top 15 Dribbles" = "blue", 
     "Others" = "gray"
-  )) +  # Change color for different categories
+  )) +  
   theme_minimal() +
   theme(
     legend.position = "bottom",
@@ -86,5 +89,5 @@ plot <- ggplot(forwards_midfielders, aes(x = Succ_Take_Per_90, y = SCA_Per_90)) 
     plot.background = element_rect(fill = "white")
   )
 
-# Save the plot as a PNG image
-ggsave("successful_takeons_vs_sca_top5_combined.png", plot = plot, width = 10, height = 6)
+# Save the plot
+ggsave("successful_takeons_vs_sca_top15.png", plot = plot, width = 10, height = 6)
