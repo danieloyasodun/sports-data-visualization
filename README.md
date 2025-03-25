@@ -5,21 +5,20 @@ This repository is a collection of projects and experiments where I practice and
 
 ---
 
-### Successful Take-ons vs Shot Creating Actions (23-24 Premier League)
-[`takeons_vs_sca`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/takeons_vs_sca/creative.R)
+### Successful Take-ons vs Shot Creating Actions (23-24 Big 5 Leagues)
+[`takeons_vs_sca`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/takeons_vs_sca/big_5_creative.RR)
 
-This scatter plot visualizes **Successful Take-Ons per 90 vs. Shot-Creating Actions (SCA) per 90** to highlight the most creative and dynamic players from the **2023-24 Premier League season**.
+This scatter plot visualizes **Successful Take-Ons per 90 vs. Shot-Creating Actions (SCA) per 90** to highlight the most creative and dynamic players from the **2023-24 Big 5 European Leagues**.
   - **Successful take-ons** measure how often a player successfully dribbles past an opponent, showcasing their ability to beat defenders and drive play forward.
   - **Shot-creating actions (SCA)** track the two offensive actions leading to a shot, including passes, dribbles, fouls drawn, and defensive plays.
 
 Players excelling in **SCA per 90** are among the most influential in their team’s attack, while those leading in **Successful Take-Ons per 90** are some of the league’s most dangerous ball carriers.
 
 Key Findings:
-  - **Top 5 in SCA per 90**: *Kevin De Bruyne, James Maddison, Martin Ødegaard, Bukayo Saka, Luis Díaz.*
-  - **Top 5 in Successful Take-Ons per 90**: *Noni Madueke, Kaoru Mitoma, Luis Díaz, Ross Barkley, Mykhaylo Mudryk.*
-  - Luis Díaz stands out as the only player in the top 5 for both metrics, confirming his role as both a creative force and an elite dribbler.
-This analysis helps identify the most dynamic and influential attackers in the league, offering insights beyond traditional goal and assist statistics.
-
+  - **Top 15 in SCA per 90**: *Kevin Stöger, Kevin De Bruyne, James Maddison, Martin Ødegaard, Jonas Hofmann, Téji Savanier, Arne Maier, Iago Aspas, Bukayo Saka, Adrien Thomasson.*
+  - **Top 15 in Successful Take-Ons per 90**: *Edon Zhegrova, Khvicha Kvaratskhelia, Noni Madueke, Nico Williams, Vinícius Júnior, Jérémy Boga, Lamine Yamal, Rafael Leão, Victor Boniface, Lameck Banda.*
+  - **Top 15 in Both Categories**: *Isco, Leroy Sané, Florian Wirtz, Xavi Simons, Romain Del Castillo.*
+This analysis helps identify the most dynamic and influential attackers across the Big 5 Leagues in Europe, offering insights beyond traditional goal and assist statistics.
 
 **Programming Language**: R
 
