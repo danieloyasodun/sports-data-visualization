@@ -8,7 +8,16 @@ This repository is a collection of projects and experiments where I practice and
 ### Successful Take-ons vs Shot Creating Actions (23-24 English Premier League)
 [`takeons_vs_sca`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/takeons_vs_sca/creative.R)
 
-This graph displays Successful Take-Ons per 90 vs SCA per 90 in an attempt to find the most creative players from the 23-24 season in the premier league. Successful take-ons measure how often a player successfully dribbles past an opponent, indicating their ability to beat defenders and drive play forward. A shot-creating action is one of the two last offensive actions in the lead-up to a shot. This can include passes, take-ons, fouls drawn, defensive actions, or even shots that lead to another shot. Players ranking at the top of SCA per 90 are those with the most influence in a teams attack nad those ranking in the top of Successful take-ons per 90 are some of the most dynamic players on the ball. In an attempt to find the most influential and dynamic players in a teams attck I've decided to make a scatter plot. In no surprise Kevin De Bruyne ranked at the top of SCA per 90 with James Maddison, Martin Odegaard, Bukayo Saka and Luis Diaz following. Players ranking in the top 5 of Successful take-ons per 90 Noni Madueke, Karou Mitoma, Luis Diaz, Ross Barkley, and Mykhaylo Mudryk. Luis Diaz ranking top 5 tell us that he was not only one of the most dynamic players on the ball last season but also one of the most influential players in his team's attack.
+This scatter plot visualizes Successful Take-Ons per 90 vs. Shot-Creating Actions (SCA) per 90 to highlight the most creative and dynamic players from the 2023-24 Premier League season.
+  - Successful take-ons measure how often a player successfully dribbles past an opponent, showcasing their ability to beat defenders and drive play forward.
+  - Shot-creating actions (SCA) track the two offensive actions leading to a shot, including passes, dribbles, fouls drawn, and defensive plays.
+Players excelling in SCA per 90 are among the most influential in their team’s attack, while those leading in Successful Take-Ons per 90 are some of the league’s most dangerous ball carriers.
+Key Findings:
+  - Top 5 in SCA per 90: Kevin De Bruyne, James Maddison, Martin Ødegaard, Bukayo Saka, Luis Díaz.
+  - Top 5 in Successful Take-Ons per 90: Noni Madueke, Kaoru Mitoma, Luis Díaz, Ross Barkley, Mykhaylo Mudryk.
+  - Luis Díaz stands out as the only player in the top 5 for both metrics, confirming his role as both a creative force and an elite dribbler.
+This analysis helps identify the most dynamic and influential attackers in the league, offering insights beyond traditional goal and assist statistics.
+
 
 **Programming Language**: R
 
