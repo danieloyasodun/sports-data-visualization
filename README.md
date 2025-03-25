@@ -5,7 +5,7 @@ This repository is a collection of projects and experiments where I practice and
 
 ---
 
-### Successful Take-ons vs Shot Creating Actions (23-24 English Premier League)
+### Successful Take-ons vs Shot Creating Actions (23-24 Premier League)
 [`takeons_vs_sca`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/takeons_vs_sca/creative.R)
 
 This scatter plot visualizes **Successful Take-Ons per 90 vs. Shot-Creating Actions (SCA) per 90** to highlight the most creative and dynamic players from the **2023-24 Premier League season**.
