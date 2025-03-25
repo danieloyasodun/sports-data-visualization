@@ -16,8 +16,11 @@ Players excelling in **SCA per 90** are among the most influential in their team
 
 Key Findings:
   - **Top 15 in SCA per 90**: *Kevin Stöger, Kevin De Bruyne, James Maddison, Martin Ødegaard, Jonas Hofmann, Téji Savanier, Arne Maier, Iago Aspas, Bukayo Saka, Adrien Thomasson.*
+    - These players are elite playmakers who consistently create scoring chances for their teammates, often through passing, crosses, and set-piece deliveries.
   - **Top 15 in Successful Take-Ons per 90**: *Edon Zhegrova, Khvicha Kvaratskhelia, Noni Madueke, Nico Williams, Vinícius Júnior, Jérémy Boga, Lamine Yamal, Rafael Leão, Victor Boniface, Lameck Banda.*
+    - These players are explosive dribblers who thrive in 1v1 situations, stretching defenses and destabilizing defensive structures. 
   - **Top 15 in Both Categories**: *Isco, Leroy Sané, Florian Wirtz, Xavi Simons, Romain Del Castillo.*
+    - Players in this elite group are not only exceptional at carrying the ball past defenders but also among the most influential creators in attack. They can break defensive lines through dribbles and immediately set up goal-scoring opportunities, making them some of the most dangerous offensive players in Europe. These players tend to be the focal points of their teams’ attacks, often playing in advanced playmaking or wide roles. 
 This analysis helps identify the most dynamic and influential attackers across the Big 5 Leagues in Europe, offering insights beyond traditional goal and assist statistics.
 
 **Programming Language**: R
