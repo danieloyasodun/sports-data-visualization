@@ -3,7 +3,7 @@ library(ggplot2)
 library(readr)
 
 # Folder path
-data_folder <- "prem_2024_data/"
+data_folder <- "prem_2024_data_players/"
 
 # Load the relevant columns from each dataset
 possession_data <- read_csv(file.path(data_folder, "prem_2024_possession.csv")) %>%
