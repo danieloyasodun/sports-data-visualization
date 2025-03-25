@@ -8,13 +8,15 @@ This repository is a collection of projects and experiments where I practice and
 ### Successful Take-ons vs Shot Creating Actions (23-24 English Premier League)
 [`takeons_vs_sca`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/takeons_vs_sca/creative.R)
 
-This scatter plot visualizes Successful Take-Ons per 90 vs. Shot-Creating Actions (SCA) per 90 to highlight the most creative and dynamic players from the 2023-24 Premier League season.
-  - Successful take-ons measure how often a player successfully dribbles past an opponent, showcasing their ability to beat defenders and drive play forward.
-  - Shot-creating actions (SCA) track the two offensive actions leading to a shot, including passes, dribbles, fouls drawn, and defensive plays.
-Players excelling in SCA per 90 are among the most influential in their team’s attack, while those leading in Successful Take-Ons per 90 are some of the league’s most dangerous ball carriers.
+This scatter plot visualizes **Successful Take-Ons per 90 vs. Shot-Creating Actions (SCA) per 90** to highlight the most creative and dynamic players from the **2023-24 Premier League season**.
+  - **Successful take-ons** measure how often a player successfully dribbles past an opponent, showcasing their ability to beat defenders and drive play forward.
+  - **Shot-creating actions (SCA)** track the two offensive actions leading to a shot, including passes, dribbles, fouls drawn, and defensive plays.
+
+Players excelling in **SCA per 90** are among the most influential in their team’s attack, while those leading in **Successful Take-Ons per 90** are some of the league’s most dangerous ball carriers.
+
 Key Findings:
-  - Top 5 in SCA per 90: Kevin De Bruyne, James Maddison, Martin Ødegaard, Bukayo Saka, Luis Díaz.
-  - Top 5 in Successful Take-Ons per 90: Noni Madueke, Kaoru Mitoma, Luis Díaz, Ross Barkley, Mykhaylo Mudryk.
+  - **Top 5 in SCA per 90**: *Kevin De Bruyne, James Maddison, Martin Ødegaard, Bukayo Saka, Luis Díaz.*
+  - **Top 5 in Successful Take-Ons per 90**: *Noni Madueke, Kaoru Mitoma, Luis Díaz, Ross Barkley, Mykhaylo Mudryk.*
   - Luis Díaz stands out as the only player in the top 5 for both metrics, confirming his role as both a creative force and an elite dribbler.
 This analysis helps identify the most dynamic and influential attackers in the league, offering insights beyond traditional goal and assist statistics.
 
