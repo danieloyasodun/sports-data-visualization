@@ -5,6 +5,27 @@ This repository is a collection of projects and experiments where I practice and
 
 ---
 
+### Double Big Lineups: Advanced Metrics (2024-25 NBA Season)
+[`two_man`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/double_bigs/two_man.R)
+
+This **table** presents advanced metrics for **2-man frontcourt lineups**—duos consisting of two bigs (centers or power forwards)—from the **2024-25 NBA Regular Season**. It highlights how these lineups perform across categories like Net Rating, Offensive Rating, Defensive Rating, and minutes played.
+
+Data is sourced from the NBA's official stats site using the `hoopR` package and formatted using `gt` and `gtExtras` for enhanced readability and insight.
+
+**Metrics included**:
+- **Net Rating**: Point differential per 100 possessions—measures overall effectiveness.  
+- **Offensive/Defensive Ratings**: Points scored and allowed per 100 possessions, showing balance or strength on either end.  
+- **Minutes Played**: Indicates how often the duo is used together on the floor.
+
+This visual helps highlight the strategic use of size in the modern NBA—where rim protection, rebounding, and versatility remain crucial, even as spacing and pace evolve.
+
+**Programming Language**: R  
+**Packages Used**: `hoopR`, `dplyr`, `janitor`, `gt`, `gtExtras`, `webshot2`
+
+![double_big](https://github.com/user-attachments/assets/ad5d4b78-9c03-4de1-84b8-4bc701088725)
+
+---
+
 ### Successful Take-ons vs Shot Creating Actions (23-24 Big 5 Leagues)
 [`takeons_vs_sca`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/takeons_vs_sca/big_5_creative.R)
 
