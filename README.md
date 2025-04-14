@@ -22,8 +22,6 @@ This visual helps highlight the strategic use of size in the modern NBA—where 
 **Programming Language**: R  
 **Packages Used**: `hoopR`, `dplyr`, `janitor`, `gt`, `gtExtras`, `webshot2`
 
-![double_big](https://github.com/user-attachments/assets/ad5d4b78-9c03-4de1-84b8-4bc701088725)
-
 ---
 
 ### Successful Take-ons vs Shot Creating Actions (23-24 Big 5 Leagues)
