@@ -14,6 +14,7 @@ Insight:
     Players with high values in both categories may be elite creators who are not recognized due to playing deeper in midfield.
 
 Example: Thiago Alcântara, Frenkie de Jong, Enzo Fernández
+
 2. Successful Pressures per 90 vs. Progressive Carries per 90
 
 (X = Successful Pressures per 90, Y = Progressive Carries per 90)
@@ -27,6 +28,7 @@ Insight:
     This combination reveals hard-working, technical dribblers who disrupt opposition attacks and carry the ball forward.
 
 Example: Khvicha Kvaratskhelia, Eberechi Eze, Alexis Mac Allister
+
 3. Interceptions per 90 vs. Progressive Passes per 90
 
 (X = Interceptions per 90, Y = Progressive Passes per 90)
@@ -40,6 +42,7 @@ Insight:
     This reveals underrated defensive midfielders who are not just ball-winners but also distributors.
 
 Example: Declan Rice, João Palhinha, Mikel Merino
+
 4. Shots on Target per 90 vs. Non-Penalty Expected Goals per 90 (npxG/90)
 
 (X = Shots on Target per 90, Y = npxG per 90)
@@ -53,6 +56,7 @@ Insight:
     This helps find forwards who consistently create and finish high-quality chances but might be underrated due to low finishing numbers or playing in weaker teams.
 
 Example: Evan Ferguson, Santiago Giménez, Ollie Watkins
+
 5. Progressive Carries per 90 vs. Expected Assists per 90 (xA/90)
 
 (X = Progressive Carries per 90, Y = xA per 90)
@@ -66,6 +70,7 @@ Insight:
     Players who rank highly in both are creative wingers or midfielders who combine dribbling with chance creation.
 
 Example: Jérémy Doku, Florian Wirtz, Pedro Neto
+
 6. Defensive Actions per 90 vs. Pass Completion %
 
 (X = Defensive Actions per 90, Y = Pass Completion %) Who it helps find: Ball-playing defenders who also defend aggressively
@@ -78,6 +83,7 @@ Insight:
     This helps identify underrated center-backs who are strong both defensively and in possession.
 
 Example: Jurrien Timber, William Saliba, Gonçalo Inácio
+
 7. Expected Goals per Shot vs. Shots per 90
 
 (X = xG per Shot, Y = Shots per 90) Who it helps find: Forwards with elite shot selection
@@ -90,6 +96,7 @@ Insight:
     Players with high values in both are elite finishers who consistently find high-quality chances.
 
 Example: Victor Boniface, Ivan Toney, Jonathan David
+
 8. Progressive Passes Received per 90 vs. Touches in the Box per 90
 
 (X = Progressive Passes Received per 90, Y = Touches in the Box per 90) Who it helps find: Attackers who consistently receive dangerous passes
