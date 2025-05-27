@@ -1,0 +1,185 @@
+Finding Underrated Talent: Unique Stat Combinations
+
+To uncover underrated players, you should look for metrics that highlight effectiveness but aren’t always reflected in traditional stats like goals or assists. Here are some great X vs. Y combinations that can reveal undervalued talent across different positions:
+1. Progressive Passes per 90 vs. Key Passes per 90
+
+(X = Progressive Passes per 90, Y = Key Passes per 90)
+Who it helps find: Underrated deep-lying playmakers
+Insight:
+
+    Progressive Passes measure how often a player moves the ball forward significantly, showing involvement in buildup play.
+
+    Key Passes track passes that directly lead to a shot, indicating a player’s direct contribution to shot creation.
+
+    Players with high values in both categories may be elite creators who are not recognized due to playing deeper in midfield.
+
+Example: Thiago Alcântara, Frenkie de Jong, Enzo Fernández
+2. Successful Pressures per 90 vs. Progressive Carries per 90
+
+(X = Successful Pressures per 90, Y = Progressive Carries per 90)
+Who it helps find: Pressing wingers and aggressive midfielders
+Insight:
+
+    High successful pressures show defensive work rate and pressing ability.
+
+    High progressive carries highlight players who break defensive lines with movement.
+
+    This combination reveals hard-working, technical dribblers who disrupt opposition attacks and carry the ball forward.
+
+Example: Khvicha Kvaratskhelia, Eberechi Eze, Alexis Mac Allister
+3. Interceptions per 90 vs. Progressive Passes per 90
+
+(X = Interceptions per 90, Y = Progressive Passes per 90)
+Who it helps find: Defensive midfielders who contribute in attack
+Insight:
+
+    High interceptions show defensive awareness and ball-winning ability.
+
+    High progressive passes indicate a player's ability to contribute offensively after winning possession.
+
+    This reveals underrated defensive midfielders who are not just ball-winners but also distributors.
+
+Example: Declan Rice, João Palhinha, Mikel Merino
+4. Shots on Target per 90 vs. Non-Penalty Expected Goals per 90 (npxG/90)
+
+(X = Shots on Target per 90, Y = npxG per 90)
+Who it helps find: Strikers who consistently generate high-quality shots
+Insight:
+
+    Shots on target per 90 shows how often a player gets quality shots.
+
+    npxG per 90 indicates how frequently a player gets into goal-scoring positions, without penalties inflating the data.
+
+    This helps find forwards who consistently create and finish high-quality chances but might be underrated due to low finishing numbers or playing in weaker teams.
+
+Example: Evan Ferguson, Santiago Giménez, Ollie Watkins
+5. Progressive Carries per 90 vs. Expected Assists per 90 (xA/90)
+
+(X = Progressive Carries per 90, Y = xA per 90)
+Who it helps find: Underrated creative dribblers
+Insight:
+
+    High progressive carries show players who move the ball forward efficiently.
+
+    High expected assists (xA) highlight players who create high-quality chances.
+
+    Players who rank highly in both are creative wingers or midfielders who combine dribbling with chance creation.
+
+Example: Jérémy Doku, Florian Wirtz, Pedro Neto
+6. Defensive Actions per 90 vs. Pass Completion %
+
+(X = Defensive Actions per 90, Y = Pass Completion %) Who it helps find: Ball-playing defenders who also defend aggressively
+Insight:
+
+    High defensive actions per 90 (tackles + interceptions) show defensive involvement.
+
+    High pass completion % highlights defenders who are comfortable on the ball.
+
+    This helps identify underrated center-backs who are strong both defensively and in possession.
+
+Example: Jurrien Timber, William Saliba, Gonçalo Inácio
+7. Expected Goals per Shot vs. Shots per 90
+
+(X = xG per Shot, Y = Shots per 90) Who it helps find: Forwards with elite shot selection
+Insight:
+
+    xG per shot measures how good a player’s shot selection is (higher values = better-quality chances).
+
+    Shots per 90 shows how often a player gets into goal-scoring positions.
+
+    Players with high values in both are elite finishers who consistently find high-quality chances.
+
+Example: Victor Boniface, Ivan Toney, Jonathan David
+8. Progressive Passes Received per 90 vs. Touches in the Box per 90
+
+(X = Progressive Passes Received per 90, Y = Touches in the Box per 90) Who it helps find: Attackers who consistently receive dangerous passes
+Insight:
+
+    Progressive passes received shows how often a player is a target for forward passes.
+
+    Touches in the box show how frequently they are involved in attacking areas.
+
+    This helps identify attackers who get into good positions even if their finishing numbers aren’t high yet.
+
+Example: Cody Gakpo, João Pedro, Rasmus Højlund
+Best Choice?
+
+    If you're looking for underrated playmakers, try Progressive Passes per 90 vs. Key Passes per 90.
+
+    If you want pressing wingers, go for Successful Pressures per 90 vs. Progressive Carries per 90.
+
+    If you need underrated strikers, use Shots on Target per 90 vs. npxG per 90.
+
+    If you're looking for defensive midfielders with passing ability, try Interceptions per 90 vs. Progressive Passes per 90.
+
+Would you like help setting up a graph for any of these?
+
+Finding underrated players involves identifying hidden value beyond conventional stats like goals and assists. Here are some alternative visualizations that can help uncover hidden gems:
+1. Percentile Ranks (Radar/Spider Charts)
+
+📊 What it shows: A player's strengths across multiple metrics in one view.
+📍 Why it’s useful: Helps compare a player's skill set relative to peers, highlighting well-rounded or elite performers in niche areas.
+🔧 Example metrics:
+
+    Progressive carries
+
+    Key passes per 90
+
+    Pressures per 90
+
+    Expected assists (xA)
+
+    Defensive actions
+
+🛠 Tool: ggplot2 (R), ggiraphExtra, ggRadar
+2. Bar Chart with Percentiles
+
+📊 What it shows: How an individual player ranks across different categories.
+📍 Why it’s useful: Helps identify undervalued specialists, like high-volume progressive passers or elite dribblers with low goal contributions.
+🔧 Example: Rank midfielders by progressive passes + defensive actions to find underrated deep-lying playmakers.
+
+🛠 Tool: ggplot2, ggthemes
+3. Possession Value Model (Heatmaps)
+
+📊 What it shows: Where on the pitch a player is most influential.
+📍 Why it’s useful: Finds players who contribute outside of traditional attacking metrics, such as deep-lying playmakers, press-resistant midfielders, or progressive dribblers.
+🔧 Example: A heatmap showing where progressive passes and carries occur on the pitch.
+
+🛠 Tool: ggplot2, sf (for spatial data)
+4. Non-Traditional Scatter Plots
+
+📊 What it shows: Correlations between less conventional stat pairs.
+📍 Why it’s useful: Helps find players who excel in unique ways.
+🔧 Examples:
+
+    Progressive Passes per 90 vs. Pass Completion % → Finds midfielders who break lines while keeping possession.
+
+    Defensive Actions per 90 vs. Pressures per 90 → Finds underrated ball-winning midfielders.
+
+    Expected Goals per Shot vs. Shot Volume → Finds efficient goal scorers rather than just high-volume shooters.
+
+🛠 Tool: ggplot2, ggrepel (for labels)
+5. Network Graphs (Pass Maps)
+
+📊 What it shows: How players connect and influence their team’s play.
+📍 Why it’s useful: Finds underrated playmakers who might not register many assists but are key in buildup play.
+🔧 Example: A pass map showing which players exchange the most progressive passes.
+
+🛠 Tool: igraph, ggraph, ggplot2
+6. Box Plots for Outlier Detection
+
+📊 What it shows: Distribution of stats across the league, highlighting underrated outliers.
+📍 Why it’s useful: Finds players performing well in categories that are rare.
+🔧 Example:
+
+    A box plot of dribbles completed per 90 to find high-volume dribblers who don’t necessarily play for top clubs.
+
+🛠 Tool: ggplot2, geom_boxplot()
+7. Expected Goals (xG) vs. Actual Goals Charts
+
+📊 What it shows: Players who outperform or underperform their expected output.
+📍 Why it’s useful: Finds underrated strikers who generate good chances but haven’t converted them yet (good for future breakout candidates).
+
+🛠 Tool: ggplot2, ggrepel
+
+Each of these approaches highlights different types of underrated players, whether it's press-resistant midfielders, progressive passers, efficient shooters, or defensive workhorses. Let me know if you want help implementing one in R! 🚀
