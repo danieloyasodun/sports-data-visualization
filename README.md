@@ -9,7 +9,7 @@ This repository is a collection of projects and experiments where I practice and
 ---
 
 ### Passes into Penalty Area per 90 vs. Key Passes per 90 (24-25 Big 5 Leagues)
-[`prog_vs_kp`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/prog_vs_kp/mid.R)
+[`ppa_vs_kp`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/ppa_vs_kp/mid.R)
 
 This scatter plot visualizes **Passes into Penalty Area per 90 vs. Key Passes per 90** showcasing the most incisive and creative passers in the **2024-25 season acorss Europe’s Big 5 Leagues**.
   - **Successful take-ons** reflect a player's ability to advance the ball significantly toward the opponent's goal. These passes are crucial for breaking lines and moving into dangerous areas.
@@ -27,10 +27,10 @@ Key Findings:
 
 This analysis helps identify the most dynamic and influential attackers across the Big 5 Leagues in Europe, offering insights beyond traditional goal and assist statistics.
 
-[all positions](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/prog_vs_kp/big5_ppa_vs_kp_top15.png)
-[forwards](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/prog_vs_kp/big5_ppa_vs_kp_top15_fw.png)
-[midfielders](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/prog_vs_kp/big5_ppa_vs_kp_top15_mf.png)
-[defenders](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/prog_vs_kp/big5_ppa_vs_kp_top15_df.png)
+[all positions](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/ppa_vs_kp/big5_ppa_vs_kp_top15.png)
+[forwards](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/pppa_vs_kp/big5_ppa_vs_kp_top15_fw.png)
+[midfielders](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/ppa_vs_kp/big5_ppa_vs_kp_top15_mf.png)
+[defenders](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/ppa_vs_kp/big5_ppa_vs_kp_top15_df.png)
 
 **Programming Language**: R
 **Packages Used**: `dplyr`, `ggplot2`, `readr`, `ggrepel`
