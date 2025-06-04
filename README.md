@@ -11,26 +11,26 @@ This repository is a collection of projects and experiments where I practice and
 ### Passes into Penalty Area per 90 vs. Key Passes per 90 (24-25 Big 5 Leagues)
 [`ppa_vs_kp`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/ppa_vs_kp/mid.R)
 
-This scatter plot visualizes **Passes into Penalty Area per 90 vs. Key Passes per 90** showcasing the most incisive and creative passers in the **2024-25 season acorss Europe’s Big 5 Leagues**.
-  - **Successful take-ons** reflect a player's ability to advance the ball significantly toward the opponent's goal. These passes are crucial for breaking lines and moving into dangerous areas.
-  - **Shot-creating actions (SCA)** are passes that directly lead to a shot, measuring how often a player sets up scoring opportunities.
-
+This scatter plot visualizes **Passes into Penalty Area per 90 vs. Key Passes per 90** s highlighting the most dangerous and creative distributors in the **2024-25 season across Europe’s Big 5 Leagues**.
+  - **Passes into the Penalty Area (PPA)** measure how frequently a player delivers the ball into the 18-yard box. These are high-value entries often associated with attacking intent, wide play, and final-third dominance.
+  - **Key Passes (KP)** are passes that directly lead to a shot, making them a strong indicator of chance creation and playmaking quality.
+    
 Players excelling in **Progressive Passes per 90** are key contributors to buildup play, often operating deeper or in transition. Those leading in **Key Passes per 90** tend to be final-third creators, delivering that crucial pass before a shot.
 
-Key Findings:
-  - **Passes into Penalty Area per 90**: **
-    - These players consistently push their teams up the pitch with incisive forward passing. Often central midfielders or deep-lying playmakers, they excel at connecting defense to attack.
-  - **Top 15 in Key Passes per 90**: **
+Key Findings (All Positions):
+  - **Passes into Penalty Area per 90**: *Bruno Fernandes, Xavi Simons, Alex Iwobi, Antony, Lamine Yamal, Jermey Doku, Osame Sahraoui, Romano Schmid, Giovani Lo Celso, Martin Ødegaard*
+    - These players frequently penetrate the opponent’s box with targeted delivery, often functioning as wide creators, attacking full-backs, or deep-lying playmakers.
+  - **Top 15 in Key Passes per 90**: *Isco, Luka Modrić, Bukayo Saka, Raphinha, Arda Güler, Kevin Stöger, Junya Ito, Alex Baena, Lee Kang-in, Franck Honorat*
     - These players are elite chance creators. They often play advanced roles (e.g. attacking midfielders, wingers), thriving in tight spaces and delivering final balls.
-  - **Top 15 in Both Categories**: *Leroy Sané, Ousmane Dembélé, Jeremy Doku*
-    - Players in this elite group are not only exceptional at carrying the ball past defenders but also among the most influential creators in attack.
+  - **Top 15 in Both Categories**: *Michael Olise, Kevin De Bruyne, Rayan Cherki, Ousmane Dembélé, Désiré Doué*
+    - These players combine volume and quality — not only finding teammates in the box but also setting up shots with regularity. They are among the most dangerous playmakers in Europe.
 
-This analysis helps identify the most dynamic and influential attackers across the Big 5 Leagues in Europe, offering insights beyond traditional goal and assist statistics.
+This plot helps identify players who don’t just progress the ball, but consistently break defensive lines and generate scoring opportunities through intelligent, incisive passing.
 
-[all positions](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/ppa_vs_kp/big5_ppa_vs_kp_top15.png)
-[forwards](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/pppa_vs_kp/big5_ppa_vs_kp_top15_fw.png)
-[midfielders](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/ppa_vs_kp/big5_ppa_vs_kp_top15_mf.png)
-[defenders](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/ppa_vs_kp/big5_ppa_vs_kp_top15_df.png)
+[`all positions`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/ppa_vs_kp/big5_ppa_vs_kp_top15.png)
+[`forwards`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/ppa_vs_kp/big5_ppa_vs_kp_top15_fw.png)
+[`midfielders`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/ppa_vs_kp/big5_ppa_vs_kp_top15_mf.png)
+[`defenders`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/ppa_vs_kp/big5_ppa_vs_kp_top15_df.png)
 
 **Programming Language**: R
 **Packages Used**: `dplyr`, `ggplot2`, `readr`, `ggrepel`
