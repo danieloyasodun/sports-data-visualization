@@ -4,7 +4,7 @@
 This repository is a collection of projects and experiments where I practice and learn data visualization using R and Python. I explore NBA stats and play-by-play data from [here](https://github.com/shufinskiy/nba_data) to create visualizations, inclusing shot charts, heatmaps and other anlytical graphics. The goal is to develope a deeper understanding of data story telling and sports analytics.
 
 ### worldfootballR
-[here](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/README.md)
+Plots made using worldfootballR located [here](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/README.md)
 
 ---
 
@@ -54,6 +54,8 @@ This visual helps highlight the strategic use of size in the modern NBA—where 
 **Programming Language**: R  
 **Packages Used**: `hoopR`, `dplyr`, `janitor`, `gt`, `gtExtras`, `webshot2`
 
+[`plot`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/double_bigs/double_big.png)
+
 ---
 
 ### Successful Take-ons vs Shot Creating Actions (23-24 Big 5 Leagues)
@@ -78,6 +80,8 @@ This analysis helps identify the most dynamic and influential attackers across t
 **Programming Language**: R
 **Packages Used**: `dplyr`, `ggplot2`, `readr`, `ggrepel`
 
+[`big 5`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/takeons_vs_sca/big5_all_successful_takeons_vs_sca_top15.png)
+[`prem`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/takeons_vs_sca/successful_takeons_vs_sca_top15.png)
 ---
 
 ### Leaderboard Plot
