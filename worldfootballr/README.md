@@ -1,8 +1,20 @@
 [`worldfootbalr`](https://jaseziv.github.io/worldfootballR/)
 
-## Progressive Passes vs Key Passes per 90 (24-25 Season Big 5 Leagues) Defenders
+## Progressive Passes vs Key Passes per 90 (24-25 Season Big 5 Leagues)
+[`prog_vs_kp`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/prog_vs_kp/mid.R)
 
+![big5_ppa_vs_kp_top15](https://github.com/user-attachments/assets/e726bb12-536a-42db-b650-913db560f625)
+
+## Progressive Passes vs Key Passes per 90 (24-25 Season Big 5 Leagues) Forwards
+![big5_ppa_vs_kp_top15_fw](https://github.com/user-attachments/assets/bf1343eb-84f9-4b56-a5ab-10af86dc4a10)
+
+## Progressive Passes vs Key Passes per 90 (24-25 Season Big 5 Leagues) Midfielders
+![big5_ppa_vs_kp_top15_mf](https://github.com/user-attachments/assets/0afaba9c-a619-4a2b-a460-c9f55f6530c3)
+
+## Progressive Passes vs Key Passes per 90 (24-25 Season Big 5 Leagues) Defenders
 ![big5_ppa_vs_kp_top15_df](https://github.com/user-attachments/assets/2fa0adf7-16bf-411f-85fc-f3ed807d6948)
+
+**Programming Language**: R
 
 ---
 
