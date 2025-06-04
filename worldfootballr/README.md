@@ -1,5 +1,10 @@
 [`worldfootbalr`](https://jaseziv.github.io/worldfootballR/)
 
+## Progressive Passes vs Key Passes per 90 (24-25 Season Big 5 Leagues) Defenders
+
+![big5_ppa_vs_kp_top15_df](https://github.com/user-attachments/assets/2fa0adf7-16bf-411f-85fc-f3ed807d6948)
+
+---
 
 ## Successful takeons vs Shot creating actions (23-24 Big 5 Leagues)
 [`takeons_vs_sca`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/takeons_vs_sca/big_5_creative.R)
