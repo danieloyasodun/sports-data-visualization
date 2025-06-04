@@ -38,10 +38,10 @@ These stats are drawn from Europe’s Big 5 Leagues during the 2024–25 season,
 **Programming Language**: Python
 **Packages Used**: `pandas`, `matplotlib`, `mplsoccer`, `numpy`
 
-[bergvall (Tottenham)](https://github.com/danieloyasodun/sports-data-visualization/blob/main/pizza/bergvall_pizza.png)
-[kimmich (Bayern)](https://github.com/danieloyasodun/sports-data-visualization/blob/main/pizza/kimmich_pizza.png)
-[pape (Tottenham)](https://github.com/danieloyasodun/sports-data-visualization/blob/main/pizza/sarr_pizza.png)
-[vitinha (PSG)](https://github.com/danieloyasodun/sports-data-visualization/blob/main/pizza/vitinha_pizza.png)
+[`bergvall (Tottenham)`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/pizza/bergvall_pizza.png)
+[`kimmich (Bayern)`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/pizza/kimmich_pizza.png)
+[`pape (Tottenham)`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/pizza/sarr_pizza.png)
+[`vitinha (PSG)`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/pizza/vitinha_pizza.png)
 
 ---
 
