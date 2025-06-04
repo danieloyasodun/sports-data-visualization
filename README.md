@@ -36,6 +36,7 @@ These stats are drawn from Europe’s Big 5 Leagues during the 2024–25 season,
   - Player development profiling
 
 **Programming Language**: Python
+
 **Packages Used**: `pandas`, `matplotlib`, `mplsoccer`, `numpy`
 
 [`bergvall (Tottenham)`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/pizza/bergvall_pizza.png)
@@ -67,6 +68,7 @@ Key Findings:
 By comparing these two metrics, the plot reveals not just who racks up assists, but who drives creativity from all over the pitch — whether it's the pass before the assist, or the buildup that leads to goals.
 
 **Programming Language**: R
+
 **Packages Used**: `dplyr`, `ggplot2`, `readr`, `ggrepel`
 
 [`plot`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/prog_vs_kp/big5_prgp_vs_kp_top15.png)
@@ -93,6 +95,7 @@ Key Findings (All Positions):
 This plot helps identify players who don’t just progress the ball, but consistently break defensive lines and generate scoring opportunities through intelligent, incisive passing.
 
 **Programming Language**: R
+
 **Packages Used**: `dplyr`, `ggplot2`, `readr`, `ggrepel`
 
 [`all positions`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/ppa_vs_kp/big5_ppa_vs_kp_top15.png)
@@ -117,6 +120,7 @@ Data is sourced from the NBA's official stats site using the `hoopR` package and
 This visual helps highlight the strategic use of size in the modern NBA—where rim protection, rebounding, and versatility remain crucial, even as spacing and pace evolve.
 
 **Programming Language**: R  
+
 **Packages Used**: `hoopR`, `dplyr`, `janitor`, `gt`, `gtExtras`, `webshot2`
 
 [`plot`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/double_bigs/double_big.png)
@@ -143,6 +147,7 @@ Key Findings:
 This analysis helps identify the most dynamic and influential attackers across the Big 5 Leagues in Europe, offering insights beyond traditional goal and assist statistics.
 
 **Programming Language**: R
+
 **Packages Used**: `dplyr`, `ggplot2`, `readr`, `ggrepel`
 
 [`big 5`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/takeons_vs_sca/big5_all_successful_takeons_vs_sca_top15.png)
@@ -156,6 +161,7 @@ This analysis helps identify the most dynamic and influential attackers across t
 This chart displays a **facet-wrapped leaderboard** ranking the **top 50 NBA players** by **Defensive Stops Per 100 Possessions** (as of **March 20, 2025**). The data comes from [pbpstats.com](https://pbpstats.com), and I’ve filtered for players with at least **1,500 defensive possessions** to ensure a meaningful sample size. A **Defensive Stop** is calculated as: Steals + Recovered Blocks + Offensive Fouls Drawn + Charge Fouls Drawn And **Stops Per 100** is determined by: (Defensive Stops / Defensive Possessions) * 100. This stat provides a **broader measure of defensive impact** beyond traditional stats like **steals and blocks**, focusing on how effective a player is at **ending an opponent’s possession**. Many great defenders—like **Lu Dort and Draymond Green**—don’t accumulate high steals or blocks but still rank **inside the top 20** due to their ability to disrupt plays in other ways. **Guards** may not block many shots, but they excel in **steals, drawing charges, and recovering loose balls**. **Big men** might not generate steals but contribute with **blocks and contested rebounds**. The chart uses:**Custom borders** colored based on each team's **primary and alternate colors** and **Team logos** for added clarity  
 
 **Programming Language**: R
+
 **Packages Used**: `tidyverse`, `jsonlite`, `hoopR`, `ggimage`, `janitor`
 
 [`plot`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/leaderboard_plot/defensive_stops_per100.png)
@@ -168,6 +174,7 @@ This chart displays a **facet-wrapped leaderboard** ranking the **top 50 NBA pla
 The chart is a visual representation of NFL teams' offensive and defensive performance using Expected Points Added (EPA) per play for the 2024-2025 regular season. It loads in play-by-play data, filters relevant plays, and calculates average offensive and defensive EPA for each team. The data is then plotted on a rotated scatterplot, with teams positioned based on their offensive and defensive efficienct, and categorized into four performance quadrants ("Good O, Bad D"). The team logos are for added clarity and the plot is styled with color coded regions and customized labels.
 
 **Programming Language**: R
+
 **Packages Used**: `tidyverse`, `nflplotR`, `nflreadr`, `grid`, `ggtext`
 
 ---
@@ -178,6 +185,7 @@ The chart is a visual representation of NFL teams' offensive and defensive perfo
 The charts show the areas of the court where the player prefers (and dislikes) to shoot from. It visualizes their shooting tendencies relative to league average. The darker and denser the red area the more frequently the players from that location. The gray areas represent spots where the player shoots less often than their peers, areas with no color indicate locations where player's shot selection aligns with the league average.
 
 **Programming Language**: R
+
 **Packages Used**: `tidyverse`, `devtools`, `duckdb`, `DBI`, `metR`, `ggtext`, `extrafont`, `ggnewscale`
 
 [`plot`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/hotspotchart/hotspot.R)
@@ -190,4 +198,5 @@ The charts show the areas of the court where the player prefers (and dislikes) t
 This project aims to detect and track players, referees, and footballs in video using YOLO, a top AI object detection model, and improve its performance through training. Using K-means clustering to assign players to teams based on shirt colors, calculate ball possession percentage and track player movement with optical flow. Perspective transformation will convert movement from pixels to meters. Finally, we’ll calculate player speed and distance covered, addressing real-world challenges suitable for both beginners and experienced machine learning engineers.
 
 **Programming Language**: Python
-**Libraries/Frameworks**: YOLO, OpenCV, K-means, Optical Flow, Perspective Transformation
+
+**Libraries/Frameworks**: `YOLO`, `OpenCV`, `K-means`, `Optical Flow`, `Perspective Transformation`
