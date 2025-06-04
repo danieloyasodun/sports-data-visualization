@@ -8,24 +8,29 @@ This repository is a collection of projects and experiments where I practice and
 
 ---
 
-### Successful Take-ons vs Shot Creating Actions (24-25 Big 5 Leagues)
+### Passes into Penalty Area per 90 vs. Key Passes per 90 (24-25 Big 5 Leagues)
 [`prog_vs_kp`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/prog_vs_kp/mid.R)
 
-This scatter plot visualizes **Successful Take-Ons per 90 vs. Shot-Creating Actions (SCA) per 90** to highlight the most creative and dynamic players from the **2023-24 Big 5 European Leagues**.
-  - **Successful take-ons** measure how often a player successfully dribbles past an opponent, showcasing their ability to beat defenders and drive play forward.
-  - **Shot-creating actions (SCA)** track the two offensive actions leading to a shot, including passes, dribbles, fouls drawn, and defensive plays.
+This scatter plot visualizes **Passes into Penalty Area per 90 vs. Key Passes per 90** showcasing the most incisive and creative passers in the **2024-25 season acorss Europe’s Big 5 Leagues**.
+  - **Successful take-ons** reflect a player's ability to advance the ball significantly toward the opponent's goal. These passes are crucial for breaking lines and moving into dangerous areas.
+  - **Shot-creating actions (SCA)** are passes that directly lead to a shot, measuring how often a player sets up scoring opportunities.
 
-Players excelling in **SCA per 90** are among the most influential in their team’s attack, while those leading in **Successful Take-Ons per 90** are some of the league’s most dangerous ball carriers.
+Players excelling in **Progressive Passes per 90** are key contributors to buildup play, often operating deeper or in transition. Those leading in **Key Passes per 90** tend to be final-third creators, delivering that crucial pass before a shot.
 
 Key Findings:
-  - **Top 15 in SCA per 90**: *Kevin Stöger, Kevin De Bruyne, James Maddison, Martin Ødegaard, Jonas Hofmann, Téji Savanier, Bruno Fernandex, Aleksei Miranchuk, Nadir Zortea, FLorian Wirtz, Isco, Romain Del Castillo*
-    - These players are elite playmakers who consistently create scoring chances for their teammates, often through passing, crosses, and set-piece deliveries.
-  - **Top 15 in Successful Take-Ons per 90**: *Edon Zhegrova, Khvicha Kvaratskhelia, Mohammed Kudus, Nico Williams, Mathys Tel, Jérémy Boga, Rayan Cherki, Brahim Diaz, Désiré Doué, Jamie Gittens, Brajan Gruda, Ilias Akhomach.*
-    - These players are explosive dribblers who thrive in 1v1 situations, stretching defenses and destabilizing defensive structures. 
+  - **Passes into Penalty Area per 90**: **
+    - These players consistently push their teams up the pitch with incisive forward passing. Often central midfielders or deep-lying playmakers, they excel at connecting defense to attack.
+  - **Top 15 in Key Passes per 90**: **
+    - These players are elite chance creators. They often play advanced roles (e.g. attacking midfielders, wingers), thriving in tight spaces and delivering final balls.
   - **Top 15 in Both Categories**: *Leroy Sané, Ousmane Dembélé, Jeremy Doku*
     - Players in this elite group are not only exceptional at carrying the ball past defenders but also among the most influential creators in attack.
 
 This analysis helps identify the most dynamic and influential attackers across the Big 5 Leagues in Europe, offering insights beyond traditional goal and assist statistics.
+
+[all positions](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/prog_vs_kp/big5_ppa_vs_kp_top15.png)
+[forwards](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/prog_vs_kp/big5_ppa_vs_kp_top15_fw.png)
+[midfielders](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/prog_vs_kp/big5_ppa_vs_kp_top15_mf.png)
+[defenders](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/prog_vs_kp/big5_ppa_vs_kp_top15_df.png)
 
 **Programming Language**: R
 **Packages Used**: `dplyr`, `ggplot2`, `readr`, `ggrepel`
