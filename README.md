@@ -8,6 +8,34 @@ Plots made using worldfootballR located [here](https://github.com/danieloyasodun
 
 ---
 
+### Progressive Passes per 90 vs Key Passes per 90 (24-25 Season Big 5 Leagues)
+[`prog_vs_kp`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/prog_vs_kp/prog.R)
+
+This scatter plot visualizes **Progressive Passes per 90 vs. Key Passes per 90** to spotlight the most creative and influential passers across all positions in the 2024–25 season from Europe’s Big 5 Leagues.
+  - **Progressive Passes (PrgP)** quantify how often a player moves the ball significantly forward toward the opponent’s goal, reflecting their role in buildup play, tempo control, and ball advancement through opposition lines.
+  - **Key Passes (KP)** represent passes that directly lead to a shot, capturing the players who consistently create scoring opportunities for their teammates.
+
+This visualization captures two key dimensions of creativity:
+  - **High PrgP**: Often associated with **deep-lying playmakers**, press-resistant midfielders, or fullbacks who initiate attacks and help teams gain territory.
+  - **High KP**: Typically seen in **advanced creators** — attacking midfielders, wingers, or forwards who provide the final ball before a shot.
+
+Key Findings:
+  - **Top 15 in Progressive Passes per 90**: *Bruno Fernandes, Joshua Kimmich, Pedri, Angelo Stiller, Rodrigo De Paul, Frenkie de Jong, Martin Ødegaard, Manuel Locatelli, Vitinha, Florian Tardieu, Dani Ceballos, Fabián Ruiz Peña, Iñigo Martínez, Granit Xhaka*
+    - These players are pivotal in orchestrating play from deeper zones, progressing the ball with intent and precision.
+  - **Top 15 in Key Passes per 90**: *Isco, Bukayo Saka, Raphinha, Arda Güler, Kevin Stöger, Junya Ito, Alex Baena, Lee Kang-in, Franck Honorat, Michael Olise, Kevin De Bruyne, Rayan Cherki, Ousmane Dembélé, Désiré Doué*
+    - Elite playmakers in the final third — these players thrive in tight spaces, creating high-quality chances through incisive passing.
+  - **Top 15 in Both Categories**: *Luka Modrić*
+    - This select group excels at both advancing possession and generating shots, blending ball progression with end-product creativity — making them some of Europe’s most complete creators.
+
+By comparing these two metrics, the plot reveals not just who racks up assists, but who drives creativity from all over the pitch — whether it's the pass before the assist, or the buildup that leads to goals.
+
+**Programming Language**: R
+**Packages Used**: `dplyr`, `ggplot2`, `readr`, `ggrepel`
+
+[`plot`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/prog_vs_kp/big5_prgp_vs_kp_top15.png)
+
+---
+
 ### Passes into Penalty Area per 90 vs. Key Passes per 90 (24-25 Big 5 Leagues)
 [`ppa_vs_kp`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/ppa_vs_kp/mid.R)
 
@@ -27,13 +55,13 @@ Key Findings (All Positions):
 
 This plot helps identify players who don’t just progress the ball, but consistently break defensive lines and generate scoring opportunities through intelligent, incisive passing.
 
+**Programming Language**: R
+**Packages Used**: `dplyr`, `ggplot2`, `readr`, `ggrepel`
+
 [`all positions`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/ppa_vs_kp/big5_ppa_vs_kp_top15.png)
 [`forwards`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/ppa_vs_kp/big5_ppa_vs_kp_top15_fw.png)
 [`midfielders`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/ppa_vs_kp/big5_ppa_vs_kp_top15_mf.png)
 [`defenders`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/ppa_vs_kp/big5_ppa_vs_kp_top15_df.png)
-
-**Programming Language**: R
-**Packages Used**: `dplyr`, `ggplot2`, `readr`, `ggrepel`
 
 ---
 
