@@ -82,6 +82,7 @@ This analysis helps identify the most dynamic and influential attackers across t
 
 [`big 5`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/takeons_vs_sca/big5_all_successful_takeons_vs_sca_top15.png)
 [`prem`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/takeons_vs_sca/successful_takeons_vs_sca_top15.png)
+
 ---
 
 ### Leaderboard Plot
@@ -91,6 +92,8 @@ This chart displays a **facet-wrapped leaderboard** ranking the **top 50 NBA pla
 
 **Programming Language**: R
 **Packages Used**: `tidyverse`, `jsonlite`, `hoopR`, `ggimage`, `janitor`
+
+[`plot`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/leaderboard_plot/defensive_stops_per100.png)
 
 ---
 
@@ -111,6 +114,8 @@ The charts show the areas of the court where the player prefers (and dislikes) t
 
 **Programming Language**: R
 **Packages Used**: `tidyverse`, `devtools`, `duckdb`, `DBI`, `metR`, `ggtext`, `extrafont`, `ggnewscale`
+
+[`plot`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/hotspotchart/hotspot.R)
 
 ---
 
