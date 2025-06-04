@@ -8,6 +8,43 @@ Plots made using worldfootballR located [here](https://github.com/danieloyasodun
 
 ---
 
+### Player Skill Radar Charts (Pizza Plots)
+[`pizza`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/pizza/radar.py)
+
+This visualization presents soccer player skill profiles as radar (pizza) charts, allowing for easy comparison of player attributes across multiple performance metrics. Inspired by modern football analytics, these charts synthesize attacking, passing, and defensive stats into a single compact graphic.
+
+Each radar chart shows normalized values (z-scores) for a selection of key performance indicators (per 90 minutes), including:
+  - Key Passes
+  - xA (Expected Assists)
+  - Final ⅓ Passes
+  - Penalty Area Passes (PPA)
+  - Progressive Passes (PrgP)
+  - Pass Completion %
+  - Dribbles
+  - Tackles Won
+  - Progressive Carries
+  - Shot-Creating Actions (SCA)
+  - Goal-Creating Actions (GCA)
+  - Ball Recoveries
+
+These stats are drawn from Europe’s Big 5 Leagues during the 2024–25 season, and each player's values are standardized relative to others in their position group (e.g., midfielders vs forwards). This provides contextualized comparisons and surfaces player strengths clearly.
+
+📊 Use Cases:
+  - Scouting comparisons
+  - Tactical fit assessment
+  - Fan-facing visual storytelling
+  - Player development profiling
+
+**Programming Language**: Python
+**Packages Used**: `pandas`, `matplotlib`, `mplsoccer`, `numpy`
+
+[bergvall (Tottenham)](https://github.com/danieloyasodun/sports-data-visualization/blob/main/pizza/bergvall_pizza.png)
+[kimmich (Bayern)](https://github.com/danieloyasodun/sports-data-visualization/blob/main/pizza/kimmich_pizza.png)
+[pape (Tottenham)](https://github.com/danieloyasodun/sports-data-visualization/blob/main/pizza/sarr_pizza.png)
+[vitinha (PSG)](https://github.com/danieloyasodun/sports-data-visualization/blob/main/pizza/vitinha_pizza.png)
+
+---
+
 ### Progressive Passes per 90 vs Key Passes per 90 (24-25 Season Big 5 Leagues)
 [`prog_vs_kp`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/prog_vs_kp/prog.R)
 
