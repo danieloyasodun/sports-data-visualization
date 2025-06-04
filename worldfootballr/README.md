@@ -1,5 +1,10 @@
 [`worldfootbalr`](https://jaseziv.github.io/worldfootballR/)
 
+## Progressive Passes per 90 vs Key Passes per 90 (24-25 Season Big 5 Leagues)
+[`prog_vs_kp`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/prog_vs_kp/prog.R)
+
+![big5_prgp_vs_kp_top15](https://github.com/user-attachments/assets/3363ce47-2362-4e34-9fda-2fc3680d92c7)
+
 ## Passes into Penalty Area per 90 vs Key Passes per 90 (24-25 Season Big 5 Leagues)
 [`ppa_vs_kp`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/ppa_vs_kp/mid.R)
 
