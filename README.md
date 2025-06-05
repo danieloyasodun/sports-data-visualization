@@ -14,7 +14,7 @@ Plots made using worldfootballR located [here](https://github.com/danieloyasodun
 [`bergvall (Tottenham)`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/pizza/bergvall_pizza.png)
 [`kimmich (Bayern)`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/pizza/kimmich_pizza.png)
 [`pedri (Barcelona)`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/pizza/pedri_pizza.png)
-[`valverder (Real Madrid)`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/pizza/valverde_pizza.png)
+[`valverde (Real Madrid)`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/pizza/valverde_pizza.png)
 
 This visualization presents soccer player skill profiles as radar (pizza) charts, allowing for easy comparison of player attributes across multiple performance metrics. Inspired by modern football analytics, these charts synthesize attacking, passing, and defensive stats into a single compact graphic.
 
