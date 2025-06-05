@@ -26,9 +26,15 @@ df = passing.merge(possession, on='Player', how='inner') \
             .merge(misc, on='Player', how='inner') 
 
 # Filter by minutes and position
-df = df[df['Min_Playing.Time'] > 1000]
-midfield_positions = ['MF', 'Midfielder', 'CM', 'DM']
-df_midfielders = df[df['Pos'].isin(midfield_positions)].copy()
+df = df[df['Min_Playing.Time'] > 10]
+midfield_positions = ['MF', 'DF']
+# Create regex pattern that matches any of the midfield positions as substrings
+pattern = '|'.join(midfield_positions)
+df = df.drop_duplicates(subset='Player', keep='first')
+df_midfielders = df[
+    (df['Min_Playing.Time'] > 10) & 
+    (df['Pos'].str.contains(pattern, regex=True, na=False))
+].copy()
 
 # Per90 calculations
 df_midfielders['KP_per90'] = df_midfielders['KP'] / df_midfielders['Min_Playing.Time'] * 90
@@ -44,8 +50,10 @@ df_midfielders['SCA_per90'] = df_midfielders['SCA90_SCA']
 df_midfielders['GCA_per90'] = df_midfielders['GCA90_GCA']
 df_midfielders['Recov'] = df_midfielders['Recov'] / df_midfielders['Min_Playing.Time'] * 90
 
+print("Players with >1000 minutes:", df_midfielders.shape[0])
+
 # Select player
-player_name = 'Joshua Kimmich'
+player_name = 'Pedri'
 player_row = df_midfielders[df_midfielders['Player'] == player_name]
 
 if player_row.empty:
@@ -64,8 +72,13 @@ params = ['Key Passes', 'xA', 'Final ⅓ Passes', 'Penalty Area Passes', 'Progre
 values_100_rounded = []
 for col in stat_columns:
     player_val = player_row[col].values[0]
-    peer_vals = df_midfielders[col].values
-    perc = percentileofscore(peer_vals, player_val, kind='rank')
+    peer_vals = df_midfielders[col].dropna().values
+    if pd.isna(player_val) or len(peer_vals) == 0:
+        # Handle missing player value or empty peer values by assigning 0 or some default
+        perc = 0
+    else:
+        perc = percentileofscore(peer_vals, player_val, kind='rank')
+
     values_100_rounded.append(round(perc))
 
 print(values_100_rounded)
@@ -108,7 +121,7 @@ fig, ax = baker.make_pizza(
 )
 
 fig.text(
-    0.515, 0.97, f"{player_name} - FC Bayern Munich", size=18,
+    0.515, 0.97, f"{player_name} - FC Barcelona", size=18,
     ha="center", fontproperties=font_bold.prop, color="#000000"
 )
 
