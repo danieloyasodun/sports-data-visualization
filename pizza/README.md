@@ -1,13 +1,13 @@
 ## Player Skill Radar Charts (Pizza Plots)
 
 ### Lucas Bergvall
-![bergvall_pizza](https://github.com/user-attachments/assets/0d0f49c3-3d77-4584-ab36-8776742fd546)
+![bergvall_pizza](https://github.com/user-attachments/assets/c0b95609-64a6-4351-88f8-c868bb242c3a)
 
 ### Joshua Kimmich
-![kimmich_pizza](https://github.com/user-attachments/assets/f77db54a-04e3-4d5e-b93d-7b4d183b9597)
+![kimmich_pizza](https://github.com/user-attachments/assets/e85ea24c-5e7d-49f5-a7b8-a7b83f4b1e4d)
 
-### Pape Matar Sarr
-![sarr_pizza](https://github.com/user-attachments/assets/04ae54a4-85ce-4300-ae51-eb47dd172e1f)
+### Pedri
+![pedri_pizza](https://github.com/user-attachments/assets/d7be2491-c31a-4da8-aad0-c58f43e4c1b0)
 
-### Vitinha
-![vitinha_pizza](https://github.com/user-attachments/assets/13960c81-0391-4ef8-857d-87ebfa85e71c)
+### Valverde
+![valverde_pizza](https://github.com/user-attachments/assets/7b7c4c90-7e22-46d2-88f6-fa69b994188d)
