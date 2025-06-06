@@ -8,6 +8,16 @@ Plots made using worldfootballR located [here](https://github.com/danieloyasodun
 
 ---
 
+Player Style Clustering: Grouping Attackers by profile
+[`clusters`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/clusters/group.py)
+
+[`pca`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/clusters/PCA.png)
+[`heatmap`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/clusters/heatmap.png)
+[`elbow`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/clusters/elbow.png)
+[`clustered data`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/clusters/big5_forwards_clustered.csv)
+
+---
+
 ### Player Skill Radar Charts (Pizza Plots)
 [`pizza`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/pizza/radar.py)
 
