@@ -8,13 +8,61 @@ Plots made using worldfootballR located [here](https://github.com/danieloyasodun
 
 ---
 
-Player Style Clustering: Grouping Attackers by profile
+### Player Style Clustering: Grouping Attackers by profile
 [`clusters`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/clusters/group.py)
 
 [`pca`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/clusters/PCA.png)
 [`heatmap`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/clusters/heatmap.png)
 [`elbow`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/clusters/elbow.png)
 [`clustered data`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/clusters/big5_forwards_clustered.csv)
+
+This project uses **unsupervised machine learning** to identify and group **attacking players** based on their performance metrics during the **2024–25 season** in Europe’s Big 5 Leagues. Rather than relying on subjective labels like "striker" or "winger," this approach groups players by how they *actually* play — using data-driven player profiles.
+
+Objective:
+To identify and label distinct attacking profiles (e.g., Support Forward, Ball-Dominant Star, Elite Creator) using underlying contributions — not just headline stats like goals or assists.
+
+Workflow Summary:  
+  1. Feature Engineering
+    Cleaned and selected key per-90 stats to describe attacking tendencies, including:
+     - `xG`, `xA`, `Shots`, `Key Passes`, `Progressive Passes`, `Dribbles`, `Carries into Final ⅓`, `Penalty Area Touches`, `Pass Completion %`, `SCA`, `GCA`, and more.
+     - Scaled all features using `StandardScaler` for uniformity.
+  2. Dimensionality Reduction
+    Applied **PCA (Principal Component Analysis)** o capture variance in 2–3 dimensions, enabling better visualization and noise reduction
+  3.Clustering Algorithm
+    - Used **K-Means** clustering to group similar players into distinct style-based categories.
+  - Determined optimal cluster count using:
+    - Elbow Method (for within-cluster variance)
+    - Silhouette Score (for cluster separation)
+  4. Labeling and Interpretation
+    - Analyzed z-score averages of each cluster to assign descriptive tactical profiles like *Elite Creator* or *Pressing Forward*
+  5. Visualization
+    - *PCA Scatter Plot*: Each dot = 1 player, positioned by style and color-coded by cluster
+    - *Cluster Heatmap*: Shows average z-scores across features per cluster to highlight strengths and traits
+
+Key Findings:
+| Cluster | Label                   | Description                                        | Sample Players                                  |
+| ------: | :---------------------- | :------------------------------------------------- | :---------------------------------------------- |
+|     `0` | **Support Forward**     | Decent xG, KP; moderate creativity; secondary role | *Sørloth, Lewandowski, Haaland, Mateta, Lukaku* |
+|     `1` | **All-Around Attacker** | High xG, xA, GCA, KP, PrgP — complete profile      | *Mbappé, Kane, Ferrán Torres, Isak, Retegui*    |
+|     `2` | **Elite Creator**       | Very high xA, xAG, KP — elite chance creation      | *Doku, Son, Saka, Lookman, Benrahma*            |
+|     `3` | **Link Play Forward**   | Modest xG/xA; helps through buildup play           | *Gakpo, Eze, Mitoma, Zhegrova, Guessand*        |
+|     `4` | **Secondary Creator**   | Balanced creator with supporting stats             | *Rashford, Zirkzee, Gabriel Jesus, Openda*      |
+|     `5` | **Dribbling Playmaker** | Strong GCA, PrgP, PrgC — creates via movement      | *Kulusevski, Yıldız, Pulisic, Murphy*           |
+|     `6` | **Pressing Forward**    | Low goal output; excels defensively                | *Iliman Ndiaye, McGinn, Merino, Weah*           |
+|     `7` | **Ball-Dominant Star**  | High across the board — attacking hub              | *Yamal, Dembélé, Olise, Dybala, Cunha*          |
+|     `8` | **Peripheral Forward**  | Low involvement — may be passive or isolated       | *Højlund, Füllkrug, Morata, Danjuma*            |
+
+
+This analysis bridges data science and football tactics, offering scouts, analysts, and fans a tool to understand player roles through behavior rather than position labels.
+
+  **Programming Language**: Python
+
+  **Libraries**: `pandas`, `scikit-learn`, `matplotlib`, `seaborn`, `numpy`
+
+📊 Use Cases:
+    - Player Scouting & Recruitment
+    - Tactical Planning
+    - Finding Stylistic Replacements
 
 ---
 
