@@ -39,7 +39,11 @@ Workflow Summary:
     - *PCA Scatter Plot*: Each dot = 1 player, positioned by style and color-coded by cluster
     - *Cluster Heatmap*: Shows average z-scores across features per cluster to highlight strengths and traits
 
-Key Findings:
+<details>
+  <summary>
+    <strong>Cluster Descriptions & Player Examples</strong>
+  </summary>
+  
 | Cluster | Label                   | Description                                        | Sample Players                                  |
 | ------: | :---------------------- | :------------------------------------------------- | :---------------------------------------------- |
 |     `0` | **Support Forward**     | Decent xG, KP; moderate creativity; secondary role | *Sørloth, Lewandowski, Haaland, Mateta, Lukaku* |
@@ -51,6 +55,7 @@ Key Findings:
 |     `6` | **Pressing Forward**    | Low goal output; excels defensively                | *Iliman Ndiaye, McGinn, Merino, Weah*           |
 |     `7` | **Ball-Dominant Star**  | High across the board — attacking hub              | *Yamal, Dembélé, Olise, Dybala, Cunha*          |
 |     `8` | **Peripheral Forward**  | Low involvement — may be passive or isolated       | *Højlund, Füllkrug, Morata, Danjuma*            |
+</details>
 
 
 This analysis bridges data science and football tactics, offering scouts, analysts, and fans a tool to understand player roles through behavior rather than position labels.
