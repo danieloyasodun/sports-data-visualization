@@ -18,10 +18,10 @@ Plots made using worldfootballR located [here](https://github.com/danieloyasodun
 
 This project uses **unsupervised machine learning** to identify and group **attacking players** based on their performance metrics during the **2024–25 season** in Europe’s Big 5 Leagues. Rather than relying on subjective labels like "striker" or "winger," this approach groups players by how they *actually* play — using data-driven player profiles.
 
-Objective:
+#### Objective:
 To identify and label distinct attacking profiles (e.g., Support Forward, Ball-Dominant Star, Elite Creator) using underlying contributions — not just headline stats like goals or assists.
 
-Workflow Summary:  
+#### Workflow Summary:  
   1. Feature Engineering
     Cleaned and selected key per-90 stats to describe attacking tendencies, including:
      - `xG`, `xA`, `Shots`, `Key Passes`, `Progressive Passes`, `Dribbles`, `Carries into Final ⅓`, `Penalty Area Touches`, `Pass Completion %`, `SCA`, `GCA`, and more.
@@ -38,6 +38,19 @@ Workflow Summary:
   5. Visualization
     - *PCA Scatter Plot*: Each dot = 1 player, positioned by style and color-coded by cluster
     - *Cluster Heatmap*: Shows average z-scores across features per cluster to highlight strengths and traits
+
+#### Cluster Legend:
+| Cluster | Label                |
+|---------|----------------------|
+|   0     | Support Forward      |
+|   1     | All-Around Attacker  |
+|   2     | Elite Creator        |
+|   3     | Link Play Forward    |
+|   4     | Secondary Creator    |
+|   5     | Dribbling Playmaker  |
+|   6     | Pressing Forward     |
+|   7     | Ball-Dominant Star   |
+|   8     | Peripheral Forward   |
 
 <details>
   <summary>
