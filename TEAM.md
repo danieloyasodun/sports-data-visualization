@@ -103,4 +103,3 @@ That’s a great starting point — clustering teams by playing style is a power
 
 ---
 
-If you let me know what type of team data you have (e.g., match-level stats, event-level passes/shots, tracking), I can suggest tailored visualizations or help write code for one of these ideas.
