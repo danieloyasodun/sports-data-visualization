@@ -7,4 +7,4 @@ big5_team_shooting <- fb_big5_advanced_season_stats(
     team_or_player= "team")
 dplyr::glimpse(big5_team_shooting)
 
-write.csv(big5_2025_shooting, "big5_team_keepers_adv_2025.csv", row.names = FALSE)
+write.csv(big5_team_shooting, "big5_team_keepers_adv_2025.csv", row.names = FALSE)
