@@ -16,18 +16,19 @@ Plots made using worldfootballR located [here](https://github.com/danieloyasodun
 [`heatmap`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/clusters/team_cluster/heatmap.png)
 [`elbow`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/clusters/team_cluster/elbow.png)
 
-| Cluster | Suggested Name                | Defining Traits                                                                                                                              |  
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **0**   | **Possession Builders**       | High short pass completions & accuracy, good progressive passing (PrgP), but low shooting volume and goals per shot — likely patient buildup but less clinical finishing.|    
-| **1**   | **Balanced Attackers**        | Good mix of passing and shooting stats, slightly above average xG, fairly high final-third presence, and balanced defensive recoveries.|                                      
+| Cluster | Suggested Name                | Defining Traits |
+|---------|--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **0**   | **Possession Builders**       | High short pass completions & accuracy, good progressive passing (PrgP), but low shooting volume and goals per shot — likely patient buildup but less clinical finishing. |
+| **1**   | **Balanced Attackers**        | Good mix of passing and shooting stats, slightly above average xG, fairly high final-third presence, and balanced defensive recoveries. |
 | **2**   | **High-Tempo Elite Attack**   | Extremely high passing volume & accuracy, top shooting volume, top progressive carries & passes, high xG and conversion — this looks like a possession-dominant, attacking powerhouse. |
-| **3**   | **Defensive Stability First** | Above-average passing but low shooting output, moderate final-third entries, strong defensive actions — likely more conservative teams prioritizing structure over risk.|     
-| **4**   | **Defensive Blockers**        | Lower attacking volume, high shot blocks, decent defensive recoveries, low GCA/SCA — these teams defend deep and block shots rather than controlling possession.|             
-| **5**   | **Overperforming Finishers**  | Good passing, high shot conversion, **very high G - xG** — suggests clinical finishing beyond expected output. Possibly opportunistic counter-attacking teams.|               
-| **6**   | **Efficient Attackers**       | Above average across passing and shooting metrics, positive G - xG, strong final-third carries — effective without huge volume.|                                              
-| **7**   | **Direct Threat Makers**      | Lower possession stats, but high SoT% and positive G - xG — likely more direct play, fewer passes before shooting.|                                                           
-| **8**   | **High Work-Rate Creators**   | Strong defensive work rate (high recoveries, tackles) *and* above-average attacking numbers — balanced pressing teams.|                                                       
-| **9**   | **Solid Mid-Block Teams**     | Moderate possession, solid attacking efficiency, stable defense — not extreme in any stat, likely pragmatic and adaptable.| 
+| **3**   | **Defensive Stability First** | Above-average passing but low shooting output, moderate final-third entries, strong defensive actions — likely more conservative teams prioritizing structure over risk. |
+| **4**   | **Defensive Blockers**        | Lower attacking volume, high shot blocks, decent defensive recoveries, low GCA/SCA — these teams defend deep and block shots rather than controlling possession. |
+| **5**   | **Overperforming Finishers**  | Good passing, high shot conversion, **very high G - xG** — suggests clinical finishing beyond expected output. Possibly opportunistic counter-attacking teams. |
+| **6**   | **Efficient Attackers**       | Above average across passing and shooting metrics, positive G - xG, strong final-third carries — effective without huge volume. |
+| **7**   | **Direct Threat Makers**      | Lower possession stats, but high SoT% and positive G - xG — likely more direct play, fewer passes before shooting. |
+| **8**   | **High Work-Rate Creators**   | Strong defensive work rate (high recoveries, tackles) *and* above-average attacking numbers — balanced pressing teams. |
+| **9**   | **Solid Mid-Block Teams**     | Moderate possession, solid attacking efficiency, stable defense — not extreme in any stat, likely pragmatic and adaptable. |
+
 
 ---
 
