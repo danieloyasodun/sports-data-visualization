@@ -9,7 +9,7 @@ Plots made using worldfootballR located [here](https://github.com/danieloyasodun
 ---
 
 ### Team Clustering
-[`team_clusters`](https://github.com/danieloyasodun/sports-data-visualization/tree/main/clusters/team_cluster)
+[`team_clusters`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/clusters/team_cluster/teams.py)
 
 [`pca`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/clusters/team_cluster/pca.png)
 [`pca1`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/clusters/team_cluster/pca1.png)
