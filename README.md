@@ -4,7 +4,7 @@
 - [Description](#description)
 - [worldfootballR](#worldfootballr)
 - Projects
-  - [Team Clustering](#team-clustering)
+  - [Team Clustering](#team-clustering-grouping-clubs-by-style--performance)
   - [Player Style Clustering](#player-style-clustering-grouping-attackers-by-profile)
   - [Player Skill Radar Charts (Pizza Plots)](#player-skill-radar-charts-pizza-plots)
   - [Progressive Passes per 90 vs Key Passes per 90 (24-25 Season Big 5 Leagues)](#progressive-passes-per-90-vs-key-passes-per-90-24-25-season-big-5-leagues)
