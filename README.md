@@ -9,7 +9,25 @@ Plots made using worldfootballR located [here](https://github.com/danieloyasodun
 ---
 [Team CLustering](https://github.com/danieloyasodun/sports-data-visualization?tab=readme-ov-file#team-clustering)
 
-[Computer](https://github.com/danieloyasodun/sports-data-visualization?tab=readme-ov-file#computer-vision-football-analysis)
+[Player Style Clustering](https://github.com/danieloyasodun/sports-data-visualization?tab=readme-ov-file#player-style-clustering-grouping-attackers-by-profile)
+
+[Player Skill Radar Charts (Pizza Plots)](https://github.com/danieloyasodun/sports-data-visualization?tab=readme-ov-file#player-skill-radar-charts-pizza-plots)
+
+[Progressive Passes per 90 vs Key Passes per 90 (24-25 Season Big 5 Leagues)](https://github.com/danieloyasodun/sports-data-visualization?tab=readme-ov-file#progressive-passes-per-90-vs-key-passes-per-90-24-25-season-big-5-leagues)
+
+[Passes into Penalty Area per 90 vs. Key Passes per 90 (24-25 Big 5 Leagues)](https://github.com/danieloyasodun/sports-data-visualization?tab=readme-ov-file#passes-into-penalty-area-per-90-vs-key-passes-per-90-24-25-big-5-leagues)
+
+[Double Big Lineups: Advanced Metrics (2024-25 NBA Season)](https://github.com/danieloyasodun/sports-data-visualization?tab=readme-ov-file#double-big-lineups-advanced-metrics-2024-25-nba-season)
+
+[Successful Take-ons vs Shot Creating Actions (23-24 Big 5 Leagues)](https://github.com/danieloyasodun/sports-data-visualization?tab=readme-ov-file#successful-take-ons-vs-shot-creating-actions-23-24-big-5-leagues)
+
+[Leaderboard Plot](https://github.com/danieloyasodun/sports-data-visualization?tab=readme-ov-file#leaderboard-plot)
+
+[Diamond Plot](https://github.com/danieloyasodun/sports-data-visualization?tab=readme-ov-file#hotspot-chart)
+
+[Hotspot Chart](https://github.com/danieloyasodun/sports-data-visualization?tab=readme-ov-file#hotspot-chart)
+
+[Computer Vision Football Analysis](https://github.com/danieloyasodun/sports-data-visualization?tab=readme-ov-file#computer-vision-football-analysis)
 
 ---
 
