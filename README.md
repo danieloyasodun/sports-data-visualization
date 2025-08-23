@@ -33,6 +33,50 @@ Plots made using worldfootballR located [here](https://github.com/danieloyasodun
 [`pca1`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/clusters/team_cluster/pca1.png)
 [`heatmap`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/clusters/team_cluster/heatmap.png)
 [`elbow`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/clusters/team_cluster/elbow.png)
+(`hierarchical`)[]
+
+This project applies **unsupervised learning** to group teams in **Europe’s Big 5 Leagues (2024–25 season)** by their playing style and performance. Instead of simply ranking clubs by points, the clustering identifies stylistic similarities and differences, *revealing which clubs play alike and which clubs stand out.*
+  1. **Style Clustering** → to see which teams play in similar ways (e.g., possession heavy, direct, defensive).
+  2. **Performance Hierarchies** → to reveal relative “tiers” of team strength and efficiency.
+
+#### Objective: 
+  - To uncover *stylistic clusters* among teams (e.g., possession-heavy builders, counter-attacking finishers, defensive-first setups).
+  - To complement style-based clustering with *performance-based grouping*, showing which teams separated themselves at the top level.
+
+#### Workflow Summary:
+  1. Feature Engineering
+    - Collected and merged multiple FBRef team datasets: passing, possession, defense, shooting, GCA/SCA, misc, passing types.
+    - Dropped irrelevant metrics (e.g., goalkeeper data, since it doesn’t reflect team field play).
+    - Standardized features with StandardScaler for consistency.
+  2. Dimensionality Reduction (PCA)
+    - Reduced high-dimensional team stats into 2–3 principal components, capturing the majority of variance.
+    - Allowed visualization of playing styles in a 2D scatter plot (each dot = one team).
+  3. Clustering Methods
+    - K-Means
+      - Used the Elbow Method to determine the optimal number of clusters.
+      - Produced interpretable team style groups (e.g., high-tempo elites, defensive blockers).
+    - Hierarchical Clustering
+      - Applied agglomerative clustering with Ward’s linkage.
+      - Visualized with a dendrogram to show how clubs merge together step-by-step, providing a global outlook of similarity.
+      - Useful for ranking which teams are "closest" in terms of performance profile.
+  5. Visualizations
+    - *PCA Scatter Plot:* Teams mapped by style, color-coded by cluster.
+    - *Heatmap:* Shows z-score averages for each cluster to highlight distinct strengths.
+    - *Elbow Plot:* Helps justify the choice of cluster count.
+    - *Hierarchical Dendrogram:* Provides a “family tree” of teams by similarity.
+     
+#### Cluster Legend:
+| Cluster | Label                |
+|---------|----------------------|
+|   0     | Possession Builders  |
+|   1     | Balanced Attackers  |
+|   2     | High-Tempo Elite Attack     |
+|   3     | Defensive Stability First   |
+|   4     | Defensive Blockers   |
+|   5     | Overperforming Finishers  |
+|   6     | Efficient Attackers     |
+|   7     | High Work-Rate Creators   |
+|   8     | Solid Mid-Block Teams   |
 
 <details>
   <summary>
@@ -53,6 +97,19 @@ Plots made using worldfootballR located [here](https://github.com/danieloyasodun
 | **9**   | **Solid Mid-Block Teams**     | Moderate possession, solid attacking efficiency, stable defense — not extreme in any stat, likely pragmatic and adaptable. | Fiorentina, RB Leipzig |
 
 </details>
+
+#### Why Two Methods?
+  - **K-Means** → Best for grouping stylistic similarity (who plays alike).
+  - **Hierarchical** → Best for a big-picture ranking, showing which teams were closer to the elite cluster and which diverged most in profile.
+
+#### Example Use Cases:
+  - Analysts can identify which clubs mirror each other’s playstyle (e.g., Napoli resembling Stuttgart in approach).
+  - Scouts/recruiters can contextualize team strengths against stylistic benchmarks.
+  - Fans gain a data-driven view of team identity, beyond simple league tables.
+
+  **Programming Language**: Python
+
+  **Libraries**: `pandas`, `scikit-learn`, `matplotlib`, `seaborn`, `scipy`, `numpy`
 
 ---
 
@@ -121,14 +178,14 @@ To identify and label distinct attacking profiles (e.g., Support Forward, Ball-D
 
 This analysis bridges data science and football tactics, offering scouts, analysts, and fans a tool to understand player roles through behavior rather than position labels.
 
-  **Programming Language**: Python
-
-  **Libraries**: `pandas`, `scikit-learn`, `matplotlib`, `seaborn`, `numpy`
-
 📊 Use Cases:
     - Player Scouting & Recruitment
     - Tactical Planning
     - Finding Stylistic Replacements
+
+  **Programming Language**: Python
+
+  **Libraries**: `pandas`, `scikit-learn`, `matplotlib`, `seaborn`, `numpy`
 
 ---
 
