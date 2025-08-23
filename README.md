@@ -26,7 +26,7 @@ Plots made using worldfootballR located [here](https://github.com/danieloyasodun
 
 ---
 
-### Team Clustering
+### Team Clustering: Grouping Clubs by Style & Performance
 [`team_clusters`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/clusters/team_cluster/teams.py)
 
 [`pca`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/clusters/team_cluster/pca.png)
