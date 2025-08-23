@@ -7,6 +7,11 @@ This repository is a collection of projects and experiments where I practice and
 Plots made using worldfootballR located [here](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/README.md)
 
 ---
+[Team CLustering](https://github.com/danieloyasodun/sports-data-visualization?tab=readme-ov-file#team-clustering)
+
+[Computer](https://github.com/danieloyasodun/sports-data-visualization?tab=readme-ov-file#computer-vision-football-analysis)
+
+---
 
 ### Team Clustering
 [`team_clusters`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/clusters/team_cluster/teams.py)
