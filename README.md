@@ -34,6 +34,11 @@ Plots made using worldfootballR located [here](https://github.com/danieloyasodun
 [`heatmap`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/clusters/team_cluster/heatmap.png)
 [`elbow`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/clusters/team_cluster/elbow.png)
 
+<details>
+  <summary>
+    <strong>Cluster Description</strong>
+  </summary>
+
 | Cluster | Suggested Name                | Defining Traits |
 |---------|--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **0**   | **Possession Builders**       | High short pass completions & accuracy, good progressive passing (PrgP), but low shooting volume and goals per shot — likely patient buildup but less clinical finishing. |
@@ -46,7 +51,7 @@ Plots made using worldfootballR located [here](https://github.com/danieloyasodun
 | **7**   | **Direct Threat Makers**      | Lower possession stats, but high SoT% and positive G - xG — likely more direct play, fewer passes before shooting. |
 | **8**   | **High Work-Rate Creators**   | Strong defensive work rate (high recoveries, tackles) *and* above-average attacking numbers — balanced pressing teams. |
 | **9**   | **Solid Mid-Block Teams**     | Moderate possession, solid attacking efficiency, stable defense — not extreme in any stat, likely pragmatic and adaptable. |
-
+</details>
 
 ---
 
