@@ -1,33 +1,28 @@
 ## Sports Analytics: Uncovering Insights Through Data
 
+## Table of Contents
+- [Description](#description)
+- [worldfootballR](#worldfootballr)
+- Projects
+  - [Team Clustering](#team-clustering)
+  - [Player Style Clustering](#player-style-clustering-grouping-attackers-by-profile)
+  - [Player Skill Radar Charts (Pizza Plots)](#player-skill-radar-charts-pizza-plots)
+  - [Progressive Passes per 90 vs Key Passes per 90 (24-25 Season Big 5 Leagues)](#progressive-passes-per-90-vs-key-passes-per-90-24-25-season-big-5-leagues)
+  - [Passes into Penalty Area per 90 vs. Key Passes per 90 (24-25 Big 5 Leagues)](#passes-into-penalty-area-per-90-vs-key-passes-per-90-24-25-big-5-leagues)
+  - [Double Big Lineups: Advanced Metrics (2024-25 NBA Season)](#double-big-lineups-advanced-metrics-2024-25-nba-season)
+  - [Successful Take-ons vs Shot Creating Actions (23-24 Big 5 Leagues)](#successful-take-ons-vs-shot-creating-actions-23-24-big-5-leagues)
+  - [Leaderboard Plot](#leaderboard-plot)
+  - [Diamond Plot](#diamond-plot)
+  - [Hotspot Chart](#hotspot-chart)
+  - [Computer Vision Football Analysis](#computer-vision-football-analysis)
+
+---
+
 ### Description
 This repository is a collection of projects and experiments where I practice and learn data visualization using R and Python. I explore NBA stats and play-by-play data from [here](https://github.com/shufinskiy/nba_data) to create visualizations, inclusing shot charts, heatmaps and other anlytical graphics. The goal is to develope a deeper understanding of data story telling and sports analytics.
 
 ### worldfootballR
 Plots made using worldfootballR located [here](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/README.md)
-
----
-[Team CLustering](#team-clustering)
-
-[Player Style Clustering](https://github.com/danieloyasodun/sports-data-visualization?tab=readme-ov-file#player-style-clustering-grouping-attackers-by-profile)
-
-[Player Skill Radar Charts (Pizza Plots)](https://github.com/danieloyasodun/sports-data-visualization?tab=readme-ov-file#player-skill-radar-charts-pizza-plots)
-
-[Progressive Passes per 90 vs Key Passes per 90 (24-25 Season Big 5 Leagues)](https://github.com/danieloyasodun/sports-data-visualization?tab=readme-ov-file#progressive-passes-per-90-vs-key-passes-per-90-24-25-season-big-5-leagues)
-
-[Passes into Penalty Area per 90 vs. Key Passes per 90 (24-25 Big 5 Leagues)](https://github.com/danieloyasodun/sports-data-visualization?tab=readme-ov-file#passes-into-penalty-area-per-90-vs-key-passes-per-90-24-25-big-5-leagues)
-
-[Double Big Lineups: Advanced Metrics (2024-25 NBA Season)](https://github.com/danieloyasodun/sports-data-visualization?tab=readme-ov-file#double-big-lineups-advanced-metrics-2024-25-nba-season)
-
-[Successful Take-ons vs Shot Creating Actions (23-24 Big 5 Leagues)](https://github.com/danieloyasodun/sports-data-visualization?tab=readme-ov-file#successful-take-ons-vs-shot-creating-actions-23-24-big-5-leagues)
-
-[Leaderboard Plot](https://github.com/danieloyasodun/sports-data-visualization?tab=readme-ov-file#leaderboard-plot)
-
-[Diamond Plot](https://github.com/danieloyasodun/sports-data-visualization?tab=readme-ov-file#hotspot-chart)
-
-[Hotspot Chart](https://github.com/danieloyasodun/sports-data-visualization?tab=readme-ov-file#hotspot-chart)
-
-[Computer Vision Football Analysis](https://github.com/danieloyasodun/sports-data-visualization?tab=readme-ov-file#computer-vision-football-analysis)
 
 ---
 
