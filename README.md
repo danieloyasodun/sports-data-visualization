@@ -33,7 +33,7 @@ Plots made using worldfootballR located [here](https://github.com/danieloyasodun
 [`pca1`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/clusters/team_cluster/pca1.png)
 [`heatmap`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/clusters/team_cluster/heatmap.png)
 [`elbow`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/clusters/team_cluster/elbow.png)
-(`hierarchical`)[]
+[`hierarchical`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/clusters/team_cluster/hierarchical.png)
 
 This project applies **unsupervised learning** to group teams in **Europe’s Big 5 Leagues (2024–25 season)** by their playing style and performance. Instead of simply ranking clubs by points, the clustering identifies stylistic similarities and differences, *revealing which clubs play alike and which clubs stand out.*
   1. **Style Clustering** → to see which teams play in similar ways (e.g., possession heavy, direct, defensive).
