@@ -7,7 +7,7 @@ This repository is a collection of projects and experiments where I practice and
 Plots made using worldfootballR located [here](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/README.md)
 
 ---
-[Team CLustering](https://github.com/danieloyasodun/sports-data-visualization?tab=readme-ov-file#team-clustering)
+[Team CLustering](#team-clustering)
 
 [Player Style Clustering](https://github.com/danieloyasodun/sports-data-visualization?tab=readme-ov-file#player-style-clustering-grouping-attackers-by-profile)
 
