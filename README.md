@@ -4,6 +4,7 @@
 - [Description](#description)
 - [worldfootballR](#worldfootballr)
 - Projects
+  - [NBA Team Wins Analytics: Stats Correlation & Predictive Modeling]  
   - [Team Clustering](#team-clustering-grouping-clubs-by-style--performance)
   - [Player Style Clustering](#player-style-clustering-grouping-attackers-by-profile)
   - [Player Skill Radar Charts (Pizza Plots)](#player-skill-radar-charts-pizza-plots)
@@ -23,6 +24,68 @@ This repository is a collection of projects and experiments where I practice and
 
 ### worldfootballR
 Plots made using worldfootballR located [here](https://github.com/danieloyasodun/sports-data-visualization/blob/main/worldfootballr/README.md)
+
+---
+
+### NBA Team Wins Analytics: Stats Correlation & Predictive Modeling
+
+This project explores how different team statistics correlate with NBA team wins and builds predictive models to estimate team performance. Using the 2024–25 NBA season dataset, we identify key metrics that influence winning and visualize how well models capture team outcomes. This analysis combines data visualization, statistical modeling, and feature selection techniques to uncover insights about NBA team performance.
+
+#### Data & Sources
+The dataset [`nba_2024_combined.csv`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/predicts/nba_2024_combined.csv) includes:
+  - Team performance stats (e.g., eFG%, TS%, turnovers, 2P/3P %)
+  - Offensive and defensive efficiency metrics
+  - Shooting percentages by distance
+  - Other advanced metrics
+Source: [NBA stats repository](https://www.basketball-reference.com/leagues/NBA_2025.html)
+
+#### Correlation Analysis
+We calculated the Pearson correlation between team wins and all numeric stats to identify the most predictive metrics. The top 20 correlated stats were visualized:
+
+#### Insights:
+  - Defensive eFG% (def_eFG%) and offensive turnover rate (off_TOV%) were among the strongest negative predictors of wins.
+  - Shooting efficiency (TS%, 2P%, 3P%) and overall offensive eFG% (off_eFG%) were positively correlated with wins.
+  - Turnovers (TOV) negatively impacted wins, showing the importance of ball control.
+
+#### Linear Regression & Stepwise Selection
+A linear model was fitted to predict team wins using the top 10 correlated stats, followed by stepwise selection to refine the model.
+Final Model (Stepwise Selection):
+  - `wins ~ def_eFG% + off_TOV% + TS% + TOV + 2P% + 3P%`
+  - Adjusted R²: 0.913 → ~91% of variance explained.
+  - Significant predictors: def_eFG%, off_TOV%, TOV.
+
+See full regression coefficients and residuals in:
+[lm_model_summary.txt](https://github.com/danieloyasodun/sports-data-visualization/blob/main/predicts/lm_model_summary.txt)
+
+#### Lasso Regression & Feature Importance
+We applied Lasso Regression to select features and shrink uninformative predictors.
+##### Workflow:
+  1. Converted numeric stats to a predictor matrix X.
+  2. Performed 5-fold cross-validation (cv.glmnet) to select the best lambda.
+  3. Extracted coefficients for features with non-zero impact.
+
+###### Feature Importance Visualization:
+
+Key Findings:
+  - Defensive and offensive efficiency stats were prioritized.
+  - Lasso reduces redundancy and handles multicollinearity, yielding a robust feature set.
+
+#### Actual vs Predicted Wins
+We compared actual team wins to predictions from the Lasso model:
+
+##### Interpretation:
+  - Above the diagonal line: Teams over-performed relative to the model.
+  - Below the diagonal line: Teams under-performed.
+  - Performance flags:
+    - Over-performed: green
+    - Under-performed: red
+    - As predicted: blue
+
+Data Output: [nba_actual_vs_predicted_wins_lasso.csv](https://github.com/danieloyasodun/sports-data-visualization/blob/main/predicts/nba_actual_vs_predicted_wins_lasso.csv)
+
+**Programming Language**: R
+
+**Packages Used**: `dplyr`, `ggplot2`, `readr`, `ggrepel`, `glmnet`
 
 ---
 
