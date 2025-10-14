@@ -31,7 +31,7 @@ Plots made using worldfootballR located [here](https://github.com/danieloyasodun
 
 This project explores how different team statistics correlate with NBA team wins and builds predictive models to estimate team performance. Using the 2024–25 NBA season dataset, we identify key metrics that influence winning and visualize how well models capture team outcomes. This analysis combines data visualization, statistical modeling, and feature selection techniques to uncover insights about NBA team performance.
 
-Sidenote: single season sample size isnt the beat representation however it is still decent. A larger sample size over about 10+ years would allow for even mor accurate results on correlations to wins and improve model accuracy.
+Sidenote: A single season may not be the best representation for modeling wins, but it provides a decent starting point. Using data across 10+ seasons would likely improve correlation estimates and model accuracy. This could be revisited in the future with a larger, more robust dataset.
 
 #### Data & Sources
 The dataset [`nba_2024_combined.csv`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/predicts/nba_2024_combined.csv) includes:
