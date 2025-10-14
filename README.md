@@ -42,6 +42,8 @@ Source: [NBA stats repository](https://www.basketball-reference.com/leagues/NBA_
 #### Correlation Analysis
 We calculated the Pearson correlation between team wins and all numeric stats to identify the most predictive metrics. The top 20 correlated stats were visualized:
 
+[Top 20 Stats Correlated with Wins](https://github.com/danieloyasodun/sports-data-visualization/blob/main/predicts/top20_win_correlations.png)
+
 #### Insights:
   - Defensive eFG% (def_eFG%) and offensive turnover rate (off_TOV%) were among the strongest negative predictors of wins.
   - Shooting efficiency (TS%, 2P%, 3P%) and overall offensive eFG% (off_eFG%) were positively correlated with wins.
@@ -59,12 +61,14 @@ See full regression coefficients and residuals in:
 
 #### Lasso Regression & Feature Importance
 We applied Lasso Regression to select features and shrink uninformative predictors.
+
 ##### Workflow:
   1. Converted numeric stats to a predictor matrix X.
   2. Performed 5-fold cross-validation (cv.glmnet) to select the best lambda.
   3. Extracted coefficients for features with non-zero impact.
 
 ###### Feature Importance Visualization:
+[Lasson Feature Importance](https://github.com/danieloyasodun/sports-data-visualization/blob/main/predicts/lasso.png)
 
 Key Findings:
   - Defensive and offensive efficiency stats were prioritized.
@@ -72,6 +76,8 @@ Key Findings:
 
 #### Actual vs Predicted Wins
 We compared actual team wins to predictions from the Lasso model:
+
+[Actual vs Predicted Wins (Lasso)](https://github.com/danieloyasodun/sports-data-visualization/blob/main/predicts/actual_vs_predicted_wins_lasso_colored.png)
 
 ##### Interpretation:
   - Above the diagonal line: Teams over-performed relative to the model.
