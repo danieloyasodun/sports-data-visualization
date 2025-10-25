@@ -27,6 +27,10 @@ Plots made using worldfootballR located [here](https://github.com/danieloyasodun
 
 ---
 
+### Deep Dive: A Look into the NBA Over a Decade
+
+---
+
 ### NBA Team Wins Analytics: Stats Correlation & Predictive Modeling
 
 This project explores how different team statistics correlate with NBA team wins and builds predictive models to estimate team performance. Using the 2024–25 NBA season dataset, we identify key metrics that influence winning and visualize how well models capture team outcomes. This analysis combines data visualization, statistical modeling, and feature selection techniques to uncover insights about NBA team performance.
