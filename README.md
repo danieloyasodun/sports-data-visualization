@@ -30,6 +30,11 @@ Plots made using worldfootballR located [here](https://github.com/danieloyasodun
 
 ### Deep Dive: A Look into the NBA Over a Decade
 
+#### Team Wins Over a Decade (2014-15 to 2024-25)
+[`line graph`](https://github.com/danieloyasodun/sports-data-visualization/blob/main/nba_data/nba_team_wins.png)
+
+This line graph provides a comprehensive view of NBA team performance over 11 seasons, from 2014–15 through 2024–25. Each line represents a team’s total wins per season, with colors corresponding to their official team colors and logos marking the most recent season. By splitting the teams into Eastern and Western conferences, the visualization highlights long-term trends, including dominant periods for certain franchises, rising contenders, and teams experiencing declines. This allows for a clear, at-a-glance understanding of shifts in team success and the competitive landscape across the league over the past decade.
+
 ---
 
 ### NBA Team Wins Analytics: Stats Correlation & Predictive Modeling
