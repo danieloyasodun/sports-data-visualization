@@ -4,6 +4,7 @@
 - [Description](#description)
 - [worldfootballR](#worldfootballr)
 - Projects
+  - [Deep Dive: A Look into NBA Trends Over a Decade](#deep-dive-a-look-into-the-nba-over-a-decade)
   - [NBA Team Wins Analytics: Stats Correlation & Predictive Modeling](#nba-team-wins-analytics-stats-correlation--predictive-modeling)
   - [Team Clustering](#team-clustering-grouping-clubs-by-style--performance)
   - [Player Style Clustering](#player-style-clustering-grouping-attackers-by-profile)
